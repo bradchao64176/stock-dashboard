@@ -1,0 +1,2 @@
+"""Financial news collection package."""
+

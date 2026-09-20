@@ -1,0 +1,30 @@
+{
+  "stocks": [
+    {
+      "symbol": "2330",
+      "company_name": "台積電",
+      "aliases": ["台灣積體電路", "TSMC"]
+    },
+    {
+      "symbol": "2455",
+      "company_name": "全新",
+      "aliases": ["全新光電"]
+    },
+    {
+      "symbol": "6670",
+      "company_name": "復盛應用",
+      "aliases": ["復盛"]
+    },
+    {
+      "symbol": "6830",
+      "company_name": "汎銓",
+      "aliases": ["汎銓科技"]
+    },
+    {
+      "symbol": "6462",
+      "company_name": "神盾",
+      "aliases": ["神盾股份有限公司"]
+    }
+  ]
+}
+

@@ -1,0 +1,6 @@
+{
+  "scripts": {
+    "start": "streamlit run app.py",
+    "dev": "streamlit run app.py"
+  }
+}

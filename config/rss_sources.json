@@ -1,0 +1,25 @@
+{
+  "sources": [
+    {
+      "name": "Yahoo Taiwan Stock - Taiwan Market",
+      "url": "https://tw.stock.yahoo.com/rss?category=tw-market",
+      "category": "taiwan_market",
+      "enabled": true
+    },
+    {
+      "name": "Yahoo Taiwan Stock - International Finance",
+      "url": "https://tw.stock.yahoo.com/rss?category=intl-markets",
+      "category": "international",
+      "enabled": true
+    },
+    {
+      "name": "Yahoo Taiwan Stock - Research",
+      "url": "https://tw.stock.yahoo.com/rss?category=research",
+      "category": "research",
+      "enabled": true
+    }
+  ],
+  "stock_feed_url": "https://tw.stock.yahoo.com/rss?s={symbol}",
+  "request_timeout_seconds": 20
+}
+
