@@ -1,0 +1,2542 @@
+{
+  "stats": {
+    "total": 1978,
+    "downloaded": 1978,
+    "analyzed": 1757,
+    "skipped": 221,
+    "errors": 0,
+    "candidates": 500,
+    "strong_candidates": 28
+  },
+  "market_date": "2026-09-24 00:00:00",
+  "universe_errors": {},
+  "revenue_errors": {},
+  "requested_start": "2025-09-26",
+  "requested_end_exclusive": "2026-09-27",
+  "config": {
+    "ma_length": 34,
+    "signal_length": 9,
+    "cross_lookback_days": 5,
+    "require_positive_impulse": false,
+    "require_close_above_ma20": false,
+    "require_ma20_above_ma60": false,
+    "require_ma20_rising": false,
+    "ma_slope_lookback": 5,
+    "zero_tolerance": 1e-10
+  },
+  "checks": [
+    {
+      "ticker": "1103.TW",
+      "date": "2026-09-22 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "1108.TW",
+      "date": "2026-09-23 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "1210.TW",
+      "date": "2026-09-18 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "1313.TW",
+      "date": "2026-09-22 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "1314.TW",
+      "date": "2026-09-18 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "1315.TW",
+      "date": "2026-09-17 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "1324.TW",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "1324.TW",
+      "date": "2026-09-24 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "1413.TW",
+      "date": "2026-09-23 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "1418.TW",
+      "date": "2026-09-17 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "1437.TW",
+      "date": "2026-09-17 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "1438.TW",
+      "date": "2026-09-22 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "1442.TW",
+      "date": "2026-09-18 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "1463.TW",
+      "date": "2026-09-17 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "1471.TW",
+      "date": "2026-09-23 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "1474.TW",
+      "date": "2026-09-17 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "1475.TW",
+      "date": "2026-09-18 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "1512.TW",
+      "date": "2026-09-24 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "1521.TW",
+      "date": "2026-09-22 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "1522.TW",
+      "date": "2026-09-23 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "1527.TW",
+      "date": "2026-09-23 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "1529.TW",
+      "date": "2026-09-22 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "1533.TW",
+      "date": "2026-09-22 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "1535.TW",
+      "date": "2026-09-18 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "1539.TW",
+      "date": "2026-09-18 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "1582.TW",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "1603.TW",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "1612.TW",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "1616.TW",
+      "date": "2026-09-23 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "1702.TW",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "1727.TW",
+      "date": "2026-09-17 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "1732.TW",
+      "date": "2026-09-24 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "1735.TW",
+      "date": "2026-09-18 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "1752.TW",
+      "date": "2026-09-22 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "1773.TW",
+      "date": "2026-09-18 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "1789.TW",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "1809.TW",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "2006.TW",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "2007.TW",
+      "date": "2026-09-22 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "2017.TW",
+      "date": "2026-09-23 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "2030.TW",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "2032.TW",
+      "date": "2026-09-23 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "2038.TW",
+      "date": "2026-09-24 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "2107.TW",
+      "date": "2026-09-18 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "2109.TW",
+      "date": "2026-09-24 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "2208.TW",
+      "date": "2026-09-22 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "2231.TW",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "2233.TW",
+      "date": "2026-09-17 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "2241.TW",
+      "date": "2026-09-18 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "2250.TW",
+      "date": "2026-09-23 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "2258.TW",
+      "date": "2026-09-18 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "2302.TW",
+      "date": "2026-09-23 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "2308.TW",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "2327.TW",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "2330.TW",
+      "date": "2026-09-22 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "2331.TW",
+      "date": "2026-09-22 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "2337.TW",
+      "date": "2026-09-23 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "2340.TW",
+      "date": "2026-09-17 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "2347.TW",
+      "date": "2026-09-24 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "2349.TW",
+      "date": "2026-09-24 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "2360.TW",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "2365.TW",
+      "date": "2026-09-22 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "2367.TW",
+      "date": "2026-09-17 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "2368.TW",
+      "date": "2026-09-22 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "2369.TW",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "2371.TW",
+      "date": "2026-09-22 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "2376.TW",
+      "date": "2026-09-22 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "2379.TW",
+      "date": "2026-09-23 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "2390.TW",
+      "date": "2026-09-18 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "2393.TW",
+      "date": "2026-09-22 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "2401.TW",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "2402.TW",
+      "date": "2026-09-24 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "2404.TW",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "2405.TW",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "2406.TW",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "2414.TW",
+      "date": "2026-09-18 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "2421.TW",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "2426.TW",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "2431.TW",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "2434.TW",
+      "date": "2026-09-23 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "2436.TW",
+      "date": "2026-09-23 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "2438.TW",
+      "date": "2026-09-18 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "2439.TW",
+      "date": "2026-09-17 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "2441.TW",
+      "date": "2026-09-17 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "2457.TW",
+      "date": "2026-09-22 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "2458.TW",
+      "date": "2026-09-23 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "2462.TW",
+      "date": "2026-09-18 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "2466.TW",
+      "date": "2026-09-22 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "2472.TW",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "2474.TW",
+      "date": "2026-09-17 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "2477.TW",
+      "date": "2026-09-22 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "2478.TW",
+      "date": "2026-09-22 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "2481.TW",
+      "date": "2026-09-17 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "2482.TW",
+      "date": "2026-09-17 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "2489.TW",
+      "date": "2026-09-17 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "2493.TW",
+      "date": "2026-09-18 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "2497.TW",
+      "date": "2026-09-17 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "2498.TW",
+      "date": "2026-09-23 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "2514.TW",
+      "date": "2026-09-18 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "2515.TW",
+      "date": "2026-09-17 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "2520.TW",
+      "date": "2026-09-18 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "2524.TW",
+      "date": "2026-09-18 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "2527.TW",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "2534.TW",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "2538.TW",
+      "date": "2026-09-24 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "2545.TW",
+      "date": "2026-09-18 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "2547.TW",
+      "date": "2026-09-22 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "2597.TW",
+      "date": "2026-09-17 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "2603.TW",
+      "date": "2026-09-18 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "2614.TW",
+      "date": "2026-09-22 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "2616.TW",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "2642.TW",
+      "date": "2026-09-18 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "2731.TW",
+      "date": "2026-09-17 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "2753.TW",
+      "date": "2026-09-23 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "2901.TW",
+      "date": "2026-09-22 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "2903.TW",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "2913.TW",
+      "date": "2026-09-23 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "2915.TW",
+      "date": "2026-09-23 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "2923.TW",
+      "date": "2026-09-23 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "3005.TW",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "3011.TW",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "3015.TW",
+      "date": "2026-09-23 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "3017.TW",
+      "date": "2026-09-24 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "3018.TW",
+      "date": "2026-09-23 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "3022.TW",
+      "date": "2026-09-24 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "3025.TW",
+      "date": "2026-09-18 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "3027.TW",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "3028.TW",
+      "date": "2026-09-24 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "3032.TW",
+      "date": "2026-09-23 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "3034.TW",
+      "date": "2026-09-18 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "3035.TW",
+      "date": "2026-09-18 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "3036.TW",
+      "date": "2026-09-17 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "3037.TW",
+      "date": "2026-09-22 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "3040.TW",
+      "date": "2026-09-24 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "3041.TW",
+      "date": "2026-09-18 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "3043.TW",
+      "date": "2026-09-23 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "3050.TW",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "3051.TW",
+      "date": "2026-09-18 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "3056.TW",
+      "date": "2026-09-18 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "3059.TW",
+      "date": "2026-09-23 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "3060.TW",
+      "date": "2026-09-17 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "3090.TW",
+      "date": "2026-09-18 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "3092.TW",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "3149.TW",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "3189.TW",
+      "date": "2026-09-23 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "3209.TW",
+      "date": "2026-09-23 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "3257.TW",
+      "date": "2026-09-18 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "3296.TW",
+      "date": "2026-09-18 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "3305.TW",
+      "date": "2026-09-24 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "3312.TW",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "3321.TW",
+      "date": "2026-09-22 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "3413.TW",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "3518.TW",
+      "date": "2026-09-17 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "3528.TW",
+      "date": "2026-09-18 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "3530.TW",
+      "date": "2026-09-17 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "3533.TW",
+      "date": "2026-09-22 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "3545.TW",
+      "date": "2026-09-17 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "3550.TW",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "3563.TW",
+      "date": "2026-09-22 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "3576.TW",
+      "date": "2026-09-22 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "3588.TW",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "3596.TW",
+      "date": "2026-09-22 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "3607.TW",
+      "date": "2026-09-18 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "3653.TW",
+      "date": "2026-09-24 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "3673.TW",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "3694.TW",
+      "date": "2026-09-17 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "3702.TW",
+      "date": "2026-09-17 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "3704.TW",
+      "date": "2026-09-22 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "3708.TW",
+      "date": "2026-09-22 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "3717.TW",
+      "date": "2026-09-18 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "4104.TW",
+      "date": "2026-09-17 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "4133.TW",
+      "date": "2026-09-22 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "4137.TW",
+      "date": "2026-09-23 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "4164.TW",
+      "date": "2026-09-17 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "4178.TW",
+      "date": "2026-09-18 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "4195.TW",
+      "date": "2026-09-23 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "4414.TW",
+      "date": "2026-09-17 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "4426.TW",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "4439.TW",
+      "date": "2026-09-24 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "4532.TW",
+      "date": "2026-09-17 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "4551.TW",
+      "date": "2026-09-24 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "4552.TW",
+      "date": "2026-09-23 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "4562.TW",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "4566.TW",
+      "date": "2026-09-23 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "4583.TW",
+      "date": "2026-09-22 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "4737.TW",
+      "date": "2026-09-23 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "4739.TW",
+      "date": "2026-09-22 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "4746.TW",
+      "date": "2026-09-22 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "4755.TW",
+      "date": "2026-09-18 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "4770.TW",
+      "date": "2026-09-18 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "4771.TW",
+      "date": "2026-09-18 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "4912.TW",
+      "date": "2026-09-23 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "4934.TW",
+      "date": "2026-09-18 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "4935.TW",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "4956.TW",
+      "date": "2026-09-22 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "4994.TW",
+      "date": "2026-09-17 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "4994.TW",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "5203.TW",
+      "date": "2026-09-18 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "5222.TW",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "5225.TW",
+      "date": "2026-09-22 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "5234.TW",
+      "date": "2026-09-17 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "5236.TW",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "5243.TW",
+      "date": "2026-09-18 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "5285.TW",
+      "date": "2026-09-17 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "5484.TW",
+      "date": "2026-09-23 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "5521.TW",
+      "date": "2026-09-17 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "5525.TW",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "5533.TW",
+      "date": "2026-09-18 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "5706.TW",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "6005.TW",
+      "date": "2026-09-22 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "6108.TW",
+      "date": "2026-09-24 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "6120.TW",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "6133.TW",
+      "date": "2026-09-17 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "6142.TW",
+      "date": "2026-09-18 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "6164.TW",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "6165.TW",
+      "date": "2026-09-17 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "6166.TW",
+      "date": "2026-09-22 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "6184.TW",
+      "date": "2026-09-18 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "6189.TW",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "6197.TW",
+      "date": "2026-09-23 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "6202.TW",
+      "date": "2026-09-23 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "6205.TW",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "6235.TW",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "6257.TW",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "6278.TW",
+      "date": "2026-09-22 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "6282.TW",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "6285.TW",
+      "date": "2026-09-24 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "6412.TW",
+      "date": "2026-09-23 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "6415.TW",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "6438.TW",
+      "date": "2026-09-22 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "6443.TW",
+      "date": "2026-09-17 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "6449.TW",
+      "date": "2026-09-22 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "6477.TW",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "6491.TW",
+      "date": "2026-09-18 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "6526.TW",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "6533.TW",
+      "date": "2026-09-24 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "6552.TW",
+      "date": "2026-09-18 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "6558.TW",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "6579.TW",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "6589.TW",
+      "date": "2026-09-22 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "6605.TW",
+      "date": "2026-09-23 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "6658.TW",
+      "date": "2026-09-23 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "6666.TW",
+      "date": "2026-09-18 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "6695.TW",
+      "date": "2026-09-18 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "6719.TW",
+      "date": "2026-09-22 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "6770.TW",
+      "date": "2026-09-18 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "6776.TW",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "6782.TW",
+      "date": "2026-09-17 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "6789.TW",
+      "date": "2026-09-22 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "6790.TW",
+      "date": "2026-09-17 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "6799.TW",
+      "date": "2026-09-17 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "6805.TW",
+      "date": "2026-09-18 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "6862.TW",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "6869.TW",
+      "date": "2026-09-17 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "6887.TW",
+      "date": "2026-09-18 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "6901.TW",
+      "date": "2026-09-24 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "6902.TW",
+      "date": "2026-09-18 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "6921.TW",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "6937.TW",
+      "date": "2026-09-18 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "6944.TW",
+      "date": "2026-09-23 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "6962.TW",
+      "date": "2026-09-18 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "7689.TW",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "7705.TW",
+      "date": "2026-09-18 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "7721.TW",
+      "date": "2026-09-18 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "7760.TW",
+      "date": "2026-09-22 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "7768.TW",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "7786.TW",
+      "date": "2026-09-17 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "7803.TW",
+      "date": "2026-09-17 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "7822.TW",
+      "date": "2026-09-23 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "8021.TW",
+      "date": "2026-09-24 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "8028.TW",
+      "date": "2026-09-18 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "8046.TW",
+      "date": "2026-09-24 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "8081.TW",
+      "date": "2026-09-22 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "8104.TW",
+      "date": "2026-09-18 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "8110.TW",
+      "date": "2026-09-18 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "8131.TW",
+      "date": "2026-09-23 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "8150.TW",
+      "date": "2026-09-24 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "8163.TW",
+      "date": "2026-09-22 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "8210.TW",
+      "date": "2026-09-24 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "8249.TW",
+      "date": "2026-09-22 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "8261.TW",
+      "date": "2026-09-23 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "8429.TW",
+      "date": "2026-09-18 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "8442.TW",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "8443.TW",
+      "date": "2026-09-23 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "8454.TW",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "8463.TW",
+      "date": "2026-09-24 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "8466.TW",
+      "date": "2026-09-22 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "8467.TW",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "8487.TW",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "8940.TW",
+      "date": "2026-09-18 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "9904.TW",
+      "date": "2026-09-17 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "9917.TW",
+      "date": "2026-09-18 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "9925.TW",
+      "date": "2026-09-23 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "9942.TW",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "9944.TW",
+      "date": "2026-09-18 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "9945.TW",
+      "date": "2026-09-22 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "9955.TW",
+      "date": "2026-09-18 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "9958.TW",
+      "date": "2026-09-18 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "1336.TWO",
+      "date": "2026-09-23 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "1591.TWO",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "1593.TWO",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "1595.TWO",
+      "date": "2026-09-17 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "1784.TWO",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "1785.TWO",
+      "date": "2026-09-22 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "2066.TWO",
+      "date": "2026-09-24 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "2067.TWO",
+      "date": "2026-09-17 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "2230.TWO",
+      "date": "2026-09-22 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "2640.TWO",
+      "date": "2026-09-17 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "2729.TWO",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "2732.TWO",
+      "date": "2026-09-23 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "2743.TWO",
+      "date": "2026-09-23 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "2745.TWO",
+      "date": "2026-09-23 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "3066.TWO",
+      "date": "2026-09-17 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "3071.TWO",
+      "date": "2026-09-22 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "3083.TWO",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "3088.TWO",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "3093.TWO",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "3114.TWO",
+      "date": "2026-09-22 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "3122.TWO",
+      "date": "2026-09-23 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "3152.TWO",
+      "date": "2026-09-24 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "3217.TWO",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "3219.TWO",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "3221.TWO",
+      "date": "2026-09-23 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "3236.TWO",
+      "date": "2026-09-22 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "3265.TWO",
+      "date": "2026-09-24 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "3268.TWO",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "3287.TWO",
+      "date": "2026-09-18 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "3289.TWO",
+      "date": "2026-09-22 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "3290.TWO",
+      "date": "2026-09-24 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "3293.TWO",
+      "date": "2026-09-18 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "3294.TWO",
+      "date": "2026-09-17 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "3317.TWO",
+      "date": "2026-09-23 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "3323.TWO",
+      "date": "2026-09-23 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "3339.TWO",
+      "date": "2026-09-18 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "3357.TWO",
+      "date": "2026-09-22 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "3360.TWO",
+      "date": "2026-09-23 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "3379.TWO",
+      "date": "2026-09-17 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "3430.TWO",
+      "date": "2026-09-23 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "3434.TWO",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "3455.TWO",
+      "date": "2026-09-18 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "3485.TWO",
+      "date": "2026-09-23 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "3491.TWO",
+      "date": "2026-09-17 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "3492.TWO",
+      "date": "2026-09-23 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "3511.TWO",
+      "date": "2026-09-22 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "3512.TWO",
+      "date": "2026-09-23 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "3526.TWO",
+      "date": "2026-09-24 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "3527.TWO",
+      "date": "2026-09-17 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "3537.TWO",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "3540.TWO",
+      "date": "2026-09-17 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "3551.TWO",
+      "date": "2026-09-18 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "3552.TWO",
+      "date": "2026-09-24 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "3558.TWO",
+      "date": "2026-09-22 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "3564.TWO",
+      "date": "2026-09-24 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "3577.TWO",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "3581.TWO",
+      "date": "2026-09-22 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "3611.TWO",
+      "date": "2026-09-22 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "3615.TWO",
+      "date": "2026-09-18 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "3630.TWO",
+      "date": "2026-09-23 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "3631.TWO",
+      "date": "2026-09-23 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "3663.TWO",
+      "date": "2026-09-17 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "3689.TWO",
+      "date": "2026-09-24 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "3709.TWO",
+      "date": "2026-09-24 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "4111.TWO",
+      "date": "2026-09-23 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "4113.TWO",
+      "date": "2026-09-23 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "4121.TWO",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "4123.TWO",
+      "date": "2026-09-18 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "4128.TWO",
+      "date": "2026-09-24 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "4147.TWO",
+      "date": "2026-09-23 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "4166.TWO",
+      "date": "2026-09-23 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "4167.TWO",
+      "date": "2026-09-22 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "4168.TWO",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "4173.TWO",
+      "date": "2026-09-17 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "4304.TWO",
+      "date": "2026-09-23 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "4401.TWO",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "4416.TWO",
+      "date": "2026-09-24 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "4513.TWO",
+      "date": "2026-09-22 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "4533.TWO",
+      "date": "2026-09-22 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "4534.TWO",
+      "date": "2026-09-22 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "4538.TWO",
+      "date": "2026-09-23 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "4542.TWO",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "4543.TWO",
+      "date": "2026-09-24 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "4729.TWO",
+      "date": "2026-09-17 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "4741.TWO",
+      "date": "2026-09-22 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "4743.TWO",
+      "date": "2026-09-24 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "4772.TWO",
+      "date": "2026-09-22 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "4903.TWO",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "4909.TWO",
+      "date": "2026-09-22 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "4911.TWO",
+      "date": "2026-09-22 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "4933.TWO",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "4953.TWO",
+      "date": "2026-09-18 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "4966.TWO",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "4979.TWO",
+      "date": "2026-09-23 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "4991.TWO",
+      "date": "2026-09-22 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "5011.TWO",
+      "date": "2026-09-23 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "5014.TWO",
+      "date": "2026-09-24 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "5210.TWO",
+      "date": "2026-09-24 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "5213.TWO",
+      "date": "2026-09-18 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "5227.TWO",
+      "date": "2026-09-17 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "5228.TWO",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "5278.TWO",
+      "date": "2026-09-23 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "5287.TWO",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "5299.TWO",
+      "date": "2026-09-22 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "5309.TWO",
+      "date": "2026-09-18 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "5312.TWO",
+      "date": "2026-09-22 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "5315.TWO",
+      "date": "2026-09-17 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "5324.TWO",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "5344.TWO",
+      "date": "2026-09-23 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "5353.TWO",
+      "date": "2026-09-23 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "5426.TWO",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "5432.TWO",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "5452.TWO",
+      "date": "2026-09-17 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "5465.TWO",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "5481.TWO",
+      "date": "2026-09-18 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "5489.TWO",
+      "date": "2026-09-18 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "5516.TWO",
+      "date": "2026-09-24 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "5536.TWO",
+      "date": "2026-09-18 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "5548.TWO",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "5701.TWO",
+      "date": "2026-09-17 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "5864.TWO",
+      "date": "2026-09-22 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "5903.TWO",
+      "date": "2026-09-22 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "6020.TWO",
+      "date": "2026-09-22 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "6111.TWO",
+      "date": "2026-09-22 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "6113.TWO",
+      "date": "2026-09-23 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "6125.TWO",
+      "date": "2026-09-23 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "6138.TWO",
+      "date": "2026-09-24 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "6147.TWO",
+      "date": "2026-09-18 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "6151.TWO",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "6154.TWO",
+      "date": "2026-09-18 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "6156.TWO",
+      "date": "2026-09-22 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "6163.TWO",
+      "date": "2026-09-17 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "6167.TWO",
+      "date": "2026-09-18 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "6175.TWO",
+      "date": "2026-09-22 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "6182.TWO",
+      "date": "2026-09-22 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "6185.TWO",
+      "date": "2026-09-23 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "6186.TWO",
+      "date": "2026-09-22 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "6204.TWO",
+      "date": "2026-09-18 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "6219.TWO",
+      "date": "2026-09-18 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "6229.TWO",
+      "date": "2026-09-18 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "6233.TWO",
+      "date": "2026-09-18 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "6240.TWO",
+      "date": "2026-09-17 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "6244.TWO",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "6245.TWO",
+      "date": "2026-09-22 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "6248.TWO",
+      "date": "2026-09-24 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "6261.TWO",
+      "date": "2026-09-18 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "6270.TWO",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "6290.TWO",
+      "date": "2026-09-23 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "6411.TWO",
+      "date": "2026-09-18 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "6417.TWO",
+      "date": "2026-09-24 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "6432.TWO",
+      "date": "2026-09-24 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "6435.TWO",
+      "date": "2026-09-23 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "6486.TWO",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "6506.TWO",
+      "date": "2026-09-23 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "6508.TWO",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "6509.TWO",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "6516.TWO",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "6523.TWO",
+      "date": "2026-09-22 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "6576.TWO",
+      "date": "2026-09-17 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "6603.TWO",
+      "date": "2026-09-18 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "6609.TWO",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "6613.TWO",
+      "date": "2026-09-18 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "6651.TWO",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "6664.TWO",
+      "date": "2026-09-24 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "6684.TWO",
+      "date": "2026-09-17 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "6712.TWO",
+      "date": "2026-09-22 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "6725.TWO",
+      "date": "2026-09-18 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "6732.TWO",
+      "date": "2026-09-18 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "6788.TWO",
+      "date": "2026-09-24 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "6823.TWO",
+      "date": "2026-09-18 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "6840.TWO",
+      "date": "2026-09-17 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "6841.TWO",
+      "date": "2026-09-17 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "6877.TWO",
+      "date": "2026-09-17 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "6894.TWO",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "6903.TWO",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "6922.TWO",
+      "date": "2026-09-24 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "6953.TWO",
+      "date": "2026-09-23 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "7556.TWO",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "7704.TWO",
+      "date": "2026-09-23 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "7744.TWO",
+      "date": "2026-09-22 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "8027.TWO",
+      "date": "2026-09-18 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "8032.TWO",
+      "date": "2026-09-18 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "8044.TWO",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "8048.TWO",
+      "date": "2026-09-22 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "8050.TWO",
+      "date": "2026-09-22 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "8068.TWO",
+      "date": "2026-09-22 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "8074.TWO",
+      "date": "2026-09-23 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "8086.TWO",
+      "date": "2026-09-22 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "8088.TWO",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "8091.TWO",
+      "date": "2026-09-22 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "8109.TWO",
+      "date": "2026-09-22 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "8182.TWO",
+      "date": "2026-09-22 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "8240.TWO",
+      "date": "2026-09-24 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "8255.TWO",
+      "date": "2026-09-23 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "8289.TWO",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "8291.TWO",
+      "date": "2026-09-21 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "8299.TWO",
+      "date": "2026-09-18 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "8349.TWO",
+      "date": "2026-09-24 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "8401.TWO",
+      "date": "2026-09-17 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "8403.TWO",
+      "date": "2026-09-17 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "8421.TWO",
+      "date": "2026-09-23 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "8450.TWO",
+      "date": "2026-09-24 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "8489.TWO",
+      "date": "2026-09-22 00:00:00",
+      "valid": true
+    },
+    {
+      "ticker": "8932.TWO",
+      "date": "2026-09-23 00:00:00",
+      "valid": true
+    }
+  ],
+  "all_checks_passed": true,
+  "all_selected_conditions_pass": true,
+  "revenue_observed_at": "2026-09-26T21:35:37.842977"
+}

@@ -1,0 +1,407 @@
+{
+  "start": "2024-09-25",
+  "end": "2026-09-25",
+  "generated_at": "2026-09-25T08:00:51.988721+00:00",
+  "requested_codes": [
+    "2303",
+    "2308",
+    "2317",
+    "2330",
+    "2409",
+    "2454",
+    "2603",
+    "2609",
+    "2615",
+    "3105",
+    "3260",
+    "3293",
+    "3481",
+    "5347",
+    "5483",
+    "6182",
+    "6187",
+    "6274",
+    "6488",
+    "8069"
+  ],
+  "sample": [
+    {
+      "stock_code": "2303",
+      "stock_name": "聯電",
+      "market": "TWSE",
+      "ticker": "2303.TW",
+      "security_type": "common_stock"
+    },
+    {
+      "stock_code": "2308",
+      "stock_name": "台達電",
+      "market": "TWSE",
+      "ticker": "2308.TW",
+      "security_type": "common_stock"
+    },
+    {
+      "stock_code": "2317",
+      "stock_name": "鴻海",
+      "market": "TWSE",
+      "ticker": "2317.TW",
+      "security_type": "common_stock"
+    },
+    {
+      "stock_code": "2330",
+      "stock_name": "台積電",
+      "market": "TWSE",
+      "ticker": "2330.TW",
+      "security_type": "common_stock"
+    },
+    {
+      "stock_code": "2409",
+      "stock_name": "友達",
+      "market": "TWSE",
+      "ticker": "2409.TW",
+      "security_type": "common_stock"
+    },
+    {
+      "stock_code": "2454",
+      "stock_name": "聯發科",
+      "market": "TWSE",
+      "ticker": "2454.TW",
+      "security_type": "common_stock"
+    },
+    {
+      "stock_code": "2603",
+      "stock_name": "長榮",
+      "market": "TWSE",
+      "ticker": "2603.TW",
+      "security_type": "common_stock"
+    },
+    {
+      "stock_code": "2609",
+      "stock_name": "陽明",
+      "market": "TWSE",
+      "ticker": "2609.TW",
+      "security_type": "common_stock"
+    },
+    {
+      "stock_code": "2615",
+      "stock_name": "萬海",
+      "market": "TWSE",
+      "ticker": "2615.TW",
+      "security_type": "common_stock"
+    },
+    {
+      "stock_code": "3105",
+      "stock_name": "穩懋",
+      "market": "TPEx",
+      "ticker": "3105.TWO",
+      "security_type": "common_stock"
+    },
+    {
+      "stock_code": "3260",
+      "stock_name": "威剛",
+      "market": "TPEx",
+      "ticker": "3260.TWO",
+      "security_type": "common_stock"
+    },
+    {
+      "stock_code": "3293",
+      "stock_name": "鈊象",
+      "market": "TPEx",
+      "ticker": "3293.TWO",
+      "security_type": "common_stock"
+    },
+    {
+      "stock_code": "3481",
+      "stock_name": "群創",
+      "market": "TWSE",
+      "ticker": "3481.TW",
+      "security_type": "common_stock"
+    },
+    {
+      "stock_code": "5347",
+      "stock_name": "世界",
+      "market": "TPEx",
+      "ticker": "5347.TWO",
+      "security_type": "common_stock"
+    },
+    {
+      "stock_code": "5483",
+      "stock_name": "中美晶",
+      "market": "TPEx",
+      "ticker": "5483.TWO",
+      "security_type": "common_stock"
+    },
+    {
+      "stock_code": "6182",
+      "stock_name": "合晶",
+      "market": "TPEx",
+      "ticker": "6182.TWO",
+      "security_type": "common_stock"
+    },
+    {
+      "stock_code": "6187",
+      "stock_name": "萬潤",
+      "market": "TPEx",
+      "ticker": "6187.TWO",
+      "security_type": "common_stock"
+    },
+    {
+      "stock_code": "6274",
+      "stock_name": "台燿",
+      "market": "TPEx",
+      "ticker": "6274.TWO",
+      "security_type": "common_stock"
+    },
+    {
+      "stock_code": "6488",
+      "stock_name": "環球晶",
+      "market": "TPEx",
+      "ticker": "6488.TWO",
+      "security_type": "common_stock"
+    },
+    {
+      "stock_code": "8069",
+      "stock_name": "元太",
+      "market": "TPEx",
+      "ticker": "8069.TWO",
+      "security_type": "common_stock"
+    }
+  ],
+  "config": {
+    "detector": {
+      "min_history_days": 120,
+      "flagpole_days": 20,
+      "min_flagpole_return": 0.15,
+      "min_flag_days": 5,
+      "max_flag_days": 15,
+      "max_retracement": 0.5,
+      "slope_tolerance": 0.6,
+      "min_regression_r2": 0.35,
+      "breakout_volume_multiplier": 1.2,
+      "min_bull_flag_score": 60,
+      "full_trend_spread": 0.1,
+      "full_flagpole_return": 0.3,
+      "full_volume_contraction": 0.5,
+      "weights": {
+        "uptrend": 20,
+        "flagpole": 20,
+        "descending_flag": 20,
+        "pullback": 15,
+        "volume": 15,
+        "breakout": 10
+      }
+    },
+    "require_breakout_volume": true,
+    "require_volume_contraction": false,
+    "stop_method": "FLAG_LOW",
+    "atr_period": 14,
+    "atr_multiplier": 1.5,
+    "stop_pct": 0.05,
+    "rr_targets": [
+      1.0,
+      1.5,
+      2.0,
+      2.5,
+      3.0
+    ],
+    "holding_periods": [
+      5,
+      10,
+      20,
+      30
+    ],
+    "same_bar_policy": "CONSERVATIVE",
+    "allow_overlap": false,
+    "costs": {
+      "enabled": true,
+      "brokerage_rate": 0.001425,
+      "minimum_brokerage": 20.0,
+      "transaction_tax": 0.003,
+      "slippage": 0.0005
+    },
+    "starting_capital": 1000000.0,
+    "sizing_mode": "FIXED_RISK",
+    "risk_per_trade": 0.01,
+    "position_shares": 1000
+  },
+  "stats": {
+    "total_stocks": 20,
+    "stocks_analyzed": 20,
+    "signals": 7
+  },
+  "roster_errors": {},
+  "download_errors": {},
+  "issues": [
+    {
+      "ticker": "2303.TW",
+      "stage": "validation",
+      "reason": "1 invalid bars; warmup resets"
+    },
+    {
+      "ticker": "2308.TW",
+      "stage": "validation",
+      "reason": "1 invalid bars; warmup resets"
+    },
+    {
+      "ticker": "2317.TW",
+      "stage": "validation",
+      "reason": "2 invalid bars; warmup resets"
+    },
+    {
+      "ticker": "2330.TW",
+      "stage": "validation",
+      "reason": "1 invalid bars; warmup resets"
+    },
+    {
+      "ticker": "2409.TW",
+      "stage": "validation",
+      "reason": "1 invalid bars; warmup resets"
+    },
+    {
+      "ticker": "2454.TW",
+      "stage": "validation",
+      "reason": "1 invalid bars; warmup resets"
+    },
+    {
+      "ticker": "2603.TW",
+      "stage": "validation",
+      "reason": "1 invalid bars; warmup resets"
+    },
+    {
+      "ticker": "2609.TW",
+      "stage": "validation",
+      "reason": "1 invalid bars; warmup resets"
+    },
+    {
+      "ticker": "2615.TW",
+      "stage": "validation",
+      "reason": "1 invalid bars; warmup resets"
+    },
+    {
+      "ticker": "3105.TWO",
+      "stage": "validation",
+      "reason": "3 invalid bars; warmup resets"
+    },
+    {
+      "ticker": "3260.TWO",
+      "stage": "validation",
+      "reason": "6 invalid bars; warmup resets"
+    },
+    {
+      "ticker": "3293.TWO",
+      "stage": "validation",
+      "reason": "5 invalid bars; warmup resets"
+    },
+    {
+      "ticker": "3481.TW",
+      "stage": "validation",
+      "reason": "8 invalid bars; warmup resets"
+    },
+    {
+      "ticker": "5347.TWO",
+      "stage": "validation",
+      "reason": "5 invalid bars; warmup resets"
+    },
+    {
+      "ticker": "5483.TWO",
+      "stage": "validation",
+      "reason": "6 invalid bars; warmup resets"
+    },
+    {
+      "ticker": "6182.TWO",
+      "stage": "validation",
+      "reason": "5 invalid bars; warmup resets"
+    },
+    {
+      "ticker": "6187.TWO",
+      "stage": "validation",
+      "reason": "4 invalid bars; warmup resets"
+    },
+    {
+      "ticker": "6274.TWO",
+      "stage": "validation",
+      "reason": "5 invalid bars; warmup resets"
+    },
+    {
+      "ticker": "6488.TWO",
+      "stage": "validation",
+      "reason": "3 invalid bars; warmup resets"
+    },
+    {
+      "ticker": "8069.TWO",
+      "stage": "validation",
+      "reason": "5 invalid bars; warmup resets"
+    }
+  ],
+  "audits": [
+    {
+      "ticker": "2303.TW",
+      "signal_date": "2026-04-30 00:00:00",
+      "entry_date": "2026-05-04 00:00:00",
+      "entry_price": 80.0,
+      "stop_price": 70.69999694824219,
+      "target_price": 98.60000610351562,
+      "exit_date": "2026-05-07 00:00:00",
+      "exit_price": 98.60000610351562,
+      "outcome": "WIN",
+      "MFE_R": 2.0215050411412916,
+      "MAE_R": -0.06451594378860842,
+      "same_bar_ambiguous": false
+    },
+    {
+      "ticker": "2308.TW",
+      "signal_date": "2026-02-11 00:00:00",
+      "entry_date": "2026-02-23 00:00:00",
+      "entry_price": 1320.0,
+      "stop_price": 1115.0,
+      "target_price": 1730.0,
+      "exit_date": "2026-03-23 00:00:00",
+      "exit_price": 1410.0,
+      "outcome": "TIMEOUT",
+      "MFE_R": 1.024390243902439,
+      "MAE_R": -0.6097560975609756,
+      "same_bar_ambiguous": false
+    },
+    {
+      "ticker": "2454.TW",
+      "signal_date": "2026-06-09 00:00:00",
+      "entry_date": "2026-06-10 00:00:00",
+      "entry_price": 4315.0,
+      "stop_price": 3935.0,
+      "target_price": 5075.0,
+      "exit_date": "2026-06-11 00:00:00",
+      "exit_price": 3935.0,
+      "outcome": "LOSS",
+      "MFE_R": 0.5394736842105263,
+      "MAE_R": -1.144736842105263,
+      "same_bar_ambiguous": false
+    },
+    {
+      "ticker": "2303.TW",
+      "signal_date": "2026-06-12 00:00:00",
+      "entry_date": "2026-06-15 00:00:00",
+      "entry_price": 139.5,
+      "stop_price": 116.5,
+      "target_price": 185.5,
+      "exit_date": "2026-06-24 00:00:00",
+      "exit_price": 185.5,
+      "outcome": "WIN",
+      "MFE_R": 2.0,
+      "MAE_R": -0.15217391304347827,
+      "same_bar_ambiguous": false
+    },
+    {
+      "ticker": "3105.TWO",
+      "signal_date": "2026-01-07 00:00:00",
+      "entry_date": "2026-01-08 00:00:00",
+      "entry_price": 186.5,
+      "stop_price": 177.0,
+      "target_price": 205.5,
+      "exit_date": "2026-01-09 00:00:00",
+      "exit_price": 205.5,
+      "outcome": "WIN",
+      "MFE_R": 3.210526315789474,
+      "MAE_R": -0.5789473684210527,
+      "same_bar_ambiguous": false
+    }
+  ]
+}

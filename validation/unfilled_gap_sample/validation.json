@@ -1,0 +1,75 @@
+{
+  "config": {
+    "trend": {
+      "require_close_above_ma20": true,
+      "require_ma20_above_ma60": true,
+      "require_ma20_rising": true,
+      "require_ma60_rising": false,
+      "require_full_ma_alignment": false,
+      "ma_slope_lookback": 5,
+      "trend_evaluation": "GAP_DAY_AND_CURRENT",
+      "enable_distance_filter": false,
+      "min_ma20_ma60_distance_pct": 0.0,
+      "max_ma20_ma60_distance_pct": null
+    },
+    "gap_lookback_days": 20,
+    "return_lookback_days": 20,
+    "min_return_pct": 0.1,
+    "gap_definition": "FULL_GAP",
+    "min_gap_pct": 0.01,
+    "only_untouched_gaps": false,
+    "require_volume_confirmation": false,
+    "min_volume_ratio": 1.2,
+    "min_score": 0,
+    "weights": {
+      "trend_quality": 20,
+      "recent_return": 20,
+      "gap_size": 15,
+      "preservation": 20,
+      "post_gap_strength": 10,
+      "gap_volume": 15
+    },
+    "full_return": 0.3,
+    "full_gap_size": 0.05,
+    "full_post_gap_strength": 0.1,
+    "full_volume_ratio": 3,
+    "full_ma20_slope": 0.02,
+    "full_ma60_slope": 0.01,
+    "full_ma_distance": 0.1,
+    "adjustment_change_tolerance": 0.001,
+    "max_unexplained_daily_change": 0.3
+  },
+  "stats": {
+    "total": 20,
+    "downloaded": 20,
+    "analyzed": 20,
+    "skipped": 0,
+    "events": 17,
+    "candidates": 2
+  },
+  "market_date": "2026-09-24 00:00:00",
+  "scan_time": "2026-09-26T07:20:15.761757+00:00",
+  "universe_errors": {},
+  "download_errors": {},
+  "issues": [],
+  "audits": [
+    {
+      "ticker": "2454.TW",
+      "gap_date": "2026-09-22",
+      "gap_status": "PARTIALLY_FILLED",
+      "recent_return_pct": 0.36739974126778785,
+      "gap_day_verified": true,
+      "current_verified": true,
+      "fill_history_verified": true
+    },
+    {
+      "ticker": "2409.TW",
+      "gap_date": "2026-09-22",
+      "gap_status": "PARTIALLY_FILLED",
+      "recent_return_pct": 0.35445547575997827,
+      "gap_day_verified": true,
+      "current_verified": true,
+      "fill_history_verified": true
+    }
+  ]
+}

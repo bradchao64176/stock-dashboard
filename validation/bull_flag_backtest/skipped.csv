@@ -1,0 +1,21 @@
+﻿signal_id,ticker,sample,RR_target,max_holding_days,reason
+2303.TW:2026-06-05,2303.TW,ALL,1.0,5,Invalid stop/risk at next open
+2303.TW:2026-06-05,2303.TW,ALL,1.0,10,Invalid stop/risk at next open
+2303.TW:2026-06-05,2303.TW,ALL,1.0,20,Invalid stop/risk at next open
+2303.TW:2026-06-05,2303.TW,ALL,1.0,30,Invalid stop/risk at next open
+2303.TW:2026-06-05,2303.TW,ALL,1.5,5,Invalid stop/risk at next open
+2303.TW:2026-06-05,2303.TW,ALL,1.5,10,Invalid stop/risk at next open
+2303.TW:2026-06-05,2303.TW,ALL,1.5,20,Invalid stop/risk at next open
+2303.TW:2026-06-05,2303.TW,ALL,1.5,30,Invalid stop/risk at next open
+2303.TW:2026-06-05,2303.TW,ALL,2.0,5,Invalid stop/risk at next open
+2303.TW:2026-06-05,2303.TW,ALL,2.0,10,Invalid stop/risk at next open
+2303.TW:2026-06-05,2303.TW,ALL,2.0,20,Invalid stop/risk at next open
+2303.TW:2026-06-05,2303.TW,ALL,2.0,30,Invalid stop/risk at next open
+2303.TW:2026-06-05,2303.TW,ALL,2.5,5,Invalid stop/risk at next open
+2303.TW:2026-06-05,2303.TW,ALL,2.5,10,Invalid stop/risk at next open
+2303.TW:2026-06-05,2303.TW,ALL,2.5,20,Invalid stop/risk at next open
+2303.TW:2026-06-05,2303.TW,ALL,2.5,30,Invalid stop/risk at next open
+2303.TW:2026-06-05,2303.TW,ALL,3.0,5,Invalid stop/risk at next open
+2303.TW:2026-06-05,2303.TW,ALL,3.0,10,Invalid stop/risk at next open
+2303.TW:2026-06-05,2303.TW,ALL,3.0,20,Invalid stop/risk at next open
+2303.TW:2026-06-05,2303.TW,ALL,3.0,30,Invalid stop/risk at next open

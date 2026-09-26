@@ -1,0 +1,561 @@
+{
+  "config": {
+    "trend": {
+      "require_close_above_ma20": true,
+      "require_ma20_above_ma60": true,
+      "require_ma20_rising": true,
+      "require_ma60_rising": false,
+      "require_full_ma_alignment": false,
+      "ma_slope_lookback": 5,
+      "trend_evaluation": "GAP_DAY_AND_CURRENT",
+      "enable_distance_filter": false,
+      "min_ma20_ma60_distance_pct": 0.0,
+      "max_ma20_ma60_distance_pct": null
+    },
+    "gap_lookback_days": 20,
+    "return_lookback_days": 20,
+    "min_return_pct": 0.1,
+    "gap_definition": "FULL_GAP",
+    "min_gap_pct": 0.01,
+    "only_untouched_gaps": false,
+    "require_volume_confirmation": false,
+    "min_volume_ratio": 1.2,
+    "min_score": 0,
+    "weights": {
+      "trend_quality": 20,
+      "recent_return": 20,
+      "gap_size": 15,
+      "preservation": 20,
+      "post_gap_strength": 10,
+      "gap_volume": 15
+    },
+    "full_return": 0.3,
+    "full_gap_size": 0.05,
+    "full_post_gap_strength": 0.1,
+    "full_volume_ratio": 3,
+    "full_ma20_slope": 0.02,
+    "full_ma60_slope": 0.01,
+    "full_ma_distance": 0.1,
+    "adjustment_change_tolerance": 0.001,
+    "max_unexplained_daily_change": 0.3
+  },
+  "stats": {
+    "total": 1978,
+    "downloaded": 1978,
+    "analyzed": 1940,
+    "skipped": 38,
+    "events": 1066,
+    "candidates": 39
+  },
+  "market_date": "2026-09-24 00:00:00",
+  "scan_time": "2026-09-26T07:23:27.842450+00:00",
+  "universe_errors": {},
+  "download_errors": {},
+  "issues": [
+    {
+      "ticker": "1441.TW",
+      "reason": "Latest market session missing/invalid"
+    },
+    {
+      "ticker": "1538.TW",
+      "reason": "Latest market session missing/invalid"
+    },
+    {
+      "ticker": "1541.TW",
+      "reason": "Latest market session missing/invalid"
+    },
+    {
+      "ticker": "1589.TW",
+      "reason": "Latest market session missing/invalid"
+    },
+    {
+      "ticker": "2321.TW",
+      "reason": "Latest market session missing/invalid"
+    },
+    {
+      "ticker": "2601.TW",
+      "reason": "Latest market session missing/invalid"
+    },
+    {
+      "ticker": "5906.TW",
+      "reason": "Latest market session missing/invalid"
+    },
+    {
+      "ticker": "6550.TW",
+      "reason": "Latest market session missing/invalid"
+    },
+    {
+      "ticker": "6655.TW",
+      "reason": "Latest market session missing/invalid"
+    },
+    {
+      "ticker": "6807.TW",
+      "reason": "Latest market session missing/invalid"
+    },
+    {
+      "ticker": "7835.TW",
+      "reason": "Insufficient history"
+    },
+    {
+      "ticker": "7855.TW",
+      "reason": "Insufficient history"
+    },
+    {
+      "ticker": "2064.TWO",
+      "reason": "Latest market session missing/invalid"
+    },
+    {
+      "ticker": "2073.TWO",
+      "reason": "Latest market session missing/invalid"
+    },
+    {
+      "ticker": "2926.TWO",
+      "reason": "Latest market session missing/invalid"
+    },
+    {
+      "ticker": "2937.TWO",
+      "reason": "Latest market session missing/invalid"
+    },
+    {
+      "ticker": "2947.TWO",
+      "reason": "Latest market session missing/invalid"
+    },
+    {
+      "ticker": "3064.TWO",
+      "reason": "Latest market session missing/invalid"
+    },
+    {
+      "ticker": "3067.TWO",
+      "reason": "Latest market session missing/invalid"
+    },
+    {
+      "ticker": "3629.TWO",
+      "reason": "Latest market session missing/invalid"
+    },
+    {
+      "ticker": "3718.TWO",
+      "reason": "Insufficient history"
+    },
+    {
+      "ticker": "4192.TWO",
+      "reason": "Latest market session missing/invalid"
+    },
+    {
+      "ticker": "4609.TWO",
+      "reason": "Latest market session missing/invalid"
+    },
+    {
+      "ticker": "4804.TWO",
+      "reason": "Latest market session missing/invalid"
+    },
+    {
+      "ticker": "4806.TWO",
+      "reason": "Latest market session missing/invalid"
+    },
+    {
+      "ticker": "5345.TWO",
+      "reason": "Latest market session missing/invalid"
+    },
+    {
+      "ticker": "5703.TWO",
+      "reason": "Latest market session missing/invalid"
+    },
+    {
+      "ticker": "6615.TWO",
+      "reason": "Latest market session missing/invalid"
+    },
+    {
+      "ticker": "6662.TWO",
+      "reason": "Latest market session missing/invalid"
+    },
+    {
+      "ticker": "6855.TWO",
+      "reason": "Latest market session missing/invalid"
+    },
+    {
+      "ticker": "6904.TWO",
+      "reason": "Latest market session missing/invalid"
+    },
+    {
+      "ticker": "6929.TWO",
+      "reason": "Latest market session missing/invalid"
+    },
+    {
+      "ticker": "7782.TWO",
+      "reason": "Latest market session missing/invalid"
+    },
+    {
+      "ticker": "7794.TWO",
+      "reason": "Insufficient history"
+    },
+    {
+      "ticker": "7856.TWO",
+      "reason": "Insufficient history"
+    },
+    {
+      "ticker": "8183.TWO",
+      "reason": "Latest market session missing/invalid"
+    },
+    {
+      "ticker": "8921.TWO",
+      "reason": "Latest market session missing/invalid"
+    },
+    {
+      "ticker": "8923.TWO",
+      "reason": "Latest market session missing/invalid"
+    }
+  ],
+  "audits": [
+    {
+      "ticker": "6221.TWO",
+      "gap_date": "2026-09-15",
+      "gap_status": "PARTIALLY_FILLED",
+      "recent_return_pct": 0.4838709507297585,
+      "gap_day_verified": true,
+      "current_verified": true,
+      "fill_history_verified": true
+    },
+    {
+      "ticker": "5465.TWO",
+      "gap_date": "2026-09-22",
+      "gap_status": "UNTOUCHED",
+      "recent_return_pct": 0.4132231274684204,
+      "gap_day_verified": true,
+      "current_verified": true,
+      "fill_history_verified": true
+    },
+    {
+      "ticker": "2033.TW",
+      "gap_date": "2026-09-18",
+      "gap_status": "UNTOUCHED",
+      "recent_return_pct": 0.5760170721994751,
+      "gap_day_verified": true,
+      "current_verified": true,
+      "fill_history_verified": true
+    },
+    {
+      "ticker": "6902.TW",
+      "gap_date": "2026-09-22",
+      "gap_status": "UNTOUCHED",
+      "recent_return_pct": 0.38976377952755903,
+      "gap_day_verified": true,
+      "current_verified": true,
+      "fill_history_verified": true
+    },
+    {
+      "ticker": "3094.TW",
+      "gap_date": "2026-09-18",
+      "gap_status": "UNTOUCHED",
+      "recent_return_pct": 0.4251968874472025,
+      "gap_day_verified": true,
+      "current_verified": true,
+      "fill_history_verified": true
+    },
+    {
+      "ticker": "2305.TW",
+      "gap_date": "2026-09-17",
+      "gap_status": "UNTOUCHED",
+      "recent_return_pct": 1.1358234260229185,
+      "gap_day_verified": true,
+      "current_verified": true,
+      "fill_history_verified": true
+    },
+    {
+      "ticker": "1569.TWO",
+      "gap_date": "2026-09-21",
+      "gap_status": "UNTOUCHED",
+      "recent_return_pct": 0.4458099876702164,
+      "gap_day_verified": true,
+      "current_verified": true,
+      "fill_history_verified": true
+    },
+    {
+      "ticker": "3219.TWO",
+      "gap_date": "2026-09-22",
+      "gap_status": "UNTOUCHED",
+      "recent_return_pct": 0.3550295857988166,
+      "gap_day_verified": true,
+      "current_verified": true,
+      "fill_history_verified": true
+    },
+    {
+      "ticker": "2444.TW",
+      "gap_date": "2026-09-21",
+      "gap_status": "PARTIALLY_FILLED",
+      "recent_return_pct": 0.333333304694466,
+      "gap_day_verified": true,
+      "current_verified": true,
+      "fill_history_verified": true
+    },
+    {
+      "ticker": "2221.TWO",
+      "gap_date": "2026-09-22",
+      "gap_status": "UNTOUCHED",
+      "recent_return_pct": 1.1983914658777368,
+      "gap_day_verified": true,
+      "current_verified": true,
+      "fill_history_verified": true
+    },
+    {
+      "ticker": "6226.TW",
+      "gap_date": "2026-09-17",
+      "gap_status": "UNTOUCHED",
+      "recent_return_pct": 0.42164778401837855,
+      "gap_day_verified": true,
+      "current_verified": true,
+      "fill_history_verified": true
+    },
+    {
+      "ticker": "6426.TW",
+      "gap_date": "2026-09-17",
+      "gap_status": "PARTIALLY_FILLED",
+      "recent_return_pct": 0.49903660886319856,
+      "gap_day_verified": true,
+      "current_verified": true,
+      "fill_history_verified": true
+    },
+    {
+      "ticker": "6933.TW",
+      "gap_date": "2026-09-24",
+      "gap_status": "UNTOUCHED",
+      "recent_return_pct": 0.627906976744186,
+      "gap_day_verified": true,
+      "current_verified": true,
+      "fill_history_verified": true
+    },
+    {
+      "ticker": "2069.TW",
+      "gap_date": "2026-09-09",
+      "gap_status": "UNTOUCHED",
+      "recent_return_pct": 0.1762013873800563,
+      "gap_day_verified": true,
+      "current_verified": true,
+      "fill_history_verified": true
+    },
+    {
+      "ticker": "4956.TW",
+      "gap_date": "2026-09-18",
+      "gap_status": "UNTOUCHED",
+      "recent_return_pct": 0.23611111111111116,
+      "gap_day_verified": true,
+      "current_verified": true,
+      "fill_history_verified": true
+    },
+    {
+      "ticker": "1560.TW",
+      "gap_date": "2026-09-22",
+      "gap_status": "UNTOUCHED",
+      "recent_return_pct": 0.40724637681159415,
+      "gap_day_verified": true,
+      "current_verified": true,
+      "fill_history_verified": true
+    },
+    {
+      "ticker": "4924.TWO",
+      "gap_date": "2026-09-16",
+      "gap_status": "PARTIALLY_FILLED",
+      "recent_return_pct": 0.5631068042068703,
+      "gap_day_verified": true,
+      "current_verified": true,
+      "fill_history_verified": true
+    },
+    {
+      "ticker": "6168.TW",
+      "gap_date": "2026-09-21",
+      "gap_status": "PARTIALLY_FILLED",
+      "recent_return_pct": 0.48397978300483513,
+      "gap_day_verified": true,
+      "current_verified": true,
+      "fill_history_verified": true
+    },
+    {
+      "ticker": "3016.TW",
+      "gap_date": "2026-09-24",
+      "gap_status": "UNTOUCHED",
+      "recent_return_pct": 0.601601577138638,
+      "gap_day_verified": true,
+      "current_verified": true,
+      "fill_history_verified": true
+    },
+    {
+      "ticker": "2434.TW",
+      "gap_date": "2026-08-31",
+      "gap_status": "UNTOUCHED",
+      "recent_return_pct": 0.27095512510534103,
+      "gap_day_verified": true,
+      "current_verified": true,
+      "fill_history_verified": true
+    },
+    {
+      "ticker": "3443.TW",
+      "gap_date": "2026-09-22",
+      "gap_status": "PARTIALLY_FILLED",
+      "recent_return_pct": 0.44003378378378377,
+      "gap_day_verified": true,
+      "current_verified": true,
+      "fill_history_verified": true
+    },
+    {
+      "ticker": "6456.TW",
+      "gap_date": "2026-09-22",
+      "gap_status": "UNTOUCHED",
+      "recent_return_pct": 0.13231197209214351,
+      "gap_day_verified": true,
+      "current_verified": true,
+      "fill_history_verified": true
+    },
+    {
+      "ticker": "1528.TW",
+      "gap_date": "2026-09-21",
+      "gap_status": "PARTIALLY_FILLED",
+      "recent_return_pct": 0.3051282442533052,
+      "gap_day_verified": true,
+      "current_verified": true,
+      "fill_history_verified": true
+    },
+    {
+      "ticker": "6672.TW",
+      "gap_date": "2026-09-24",
+      "gap_status": "UNTOUCHED",
+      "recent_return_pct": 0.19893428063943164,
+      "gap_day_verified": true,
+      "current_verified": true,
+      "fill_history_verified": true
+    },
+    {
+      "ticker": "6674.TW",
+      "gap_date": "2026-09-22",
+      "gap_status": "UNTOUCHED",
+      "recent_return_pct": 0.1468750238418579,
+      "gap_day_verified": true,
+      "current_verified": true,
+      "fill_history_verified": true
+    },
+    {
+      "ticker": "6204.TWO",
+      "gap_date": "2026-09-17",
+      "gap_status": "UNTOUCHED",
+      "recent_return_pct": 0.2078651685393258,
+      "gap_day_verified": true,
+      "current_verified": true,
+      "fill_history_verified": true
+    },
+    {
+      "ticker": "2449.TW",
+      "gap_date": "2026-09-21",
+      "gap_status": "UNTOUCHED",
+      "recent_return_pct": 0.25656565656565666,
+      "gap_day_verified": true,
+      "current_verified": true,
+      "fill_history_verified": true
+    },
+    {
+      "ticker": "6441.TWO",
+      "gap_date": "2026-09-07",
+      "gap_status": "PARTIALLY_FILLED",
+      "recent_return_pct": 0.158139517140943,
+      "gap_day_verified": true,
+      "current_verified": true,
+      "fill_history_verified": true
+    },
+    {
+      "ticker": "2454.TW",
+      "gap_date": "2026-09-22",
+      "gap_status": "PARTIALLY_FILLED",
+      "recent_return_pct": 0.36739974126778785,
+      "gap_day_verified": true,
+      "current_verified": true,
+      "fill_history_verified": true
+    },
+    {
+      "ticker": "6425.TWO",
+      "gap_date": "2026-09-21",
+      "gap_status": "PARTIALLY_FILLED",
+      "recent_return_pct": 0.14492753979294482,
+      "gap_day_verified": true,
+      "current_verified": true,
+      "fill_history_verified": true
+    },
+    {
+      "ticker": "3264.TWO",
+      "gap_date": "2026-09-17",
+      "gap_status": "UNTOUCHED",
+      "recent_return_pct": 0.12072892938496582,
+      "gap_day_verified": true,
+      "current_verified": true,
+      "fill_history_verified": true
+    },
+    {
+      "ticker": "2466.TW",
+      "gap_date": "2026-09-22",
+      "gap_status": "UNTOUCHED",
+      "recent_return_pct": 0.1327014218009479,
+      "gap_day_verified": true,
+      "current_verified": true,
+      "fill_history_verified": true
+    },
+    {
+      "ticker": "6147.TWO",
+      "gap_date": "2026-09-15",
+      "gap_status": "UNTOUCHED",
+      "recent_return_pct": 0.13866666666666672,
+      "gap_day_verified": true,
+      "current_verified": true,
+      "fill_history_verified": true
+    },
+    {
+      "ticker": "3541.TWO",
+      "gap_date": "2026-09-22",
+      "gap_status": "UNTOUCHED",
+      "recent_return_pct": 0.11617308193291653,
+      "gap_day_verified": true,
+      "current_verified": true,
+      "fill_history_verified": true
+    },
+    {
+      "ticker": "2409.TW",
+      "gap_date": "2026-09-22",
+      "gap_status": "PARTIALLY_FILLED",
+      "recent_return_pct": 0.35445547575997827,
+      "gap_day_verified": true,
+      "current_verified": true,
+      "fill_history_verified": true
+    },
+    {
+      "ticker": "6805.TW",
+      "gap_date": "2026-09-22",
+      "gap_status": "UNTOUCHED",
+      "recent_return_pct": 0.13707865168539324,
+      "gap_day_verified": true,
+      "current_verified": true,
+      "fill_history_verified": true
+    },
+    {
+      "ticker": "6838.TW",
+      "gap_date": "2026-09-23",
+      "gap_status": "UNTOUCHED",
+      "recent_return_pct": 0.10869565217391308,
+      "gap_day_verified": true,
+      "current_verified": true,
+      "fill_history_verified": true
+    },
+    {
+      "ticker": "8227.TWO",
+      "gap_date": "2026-09-22",
+      "gap_status": "PARTIALLY_FILLED",
+      "recent_return_pct": 0.9156249999999999,
+      "gap_day_verified": true,
+      "current_verified": true,
+      "fill_history_verified": true
+    },
+    {
+      "ticker": "6538.TWO",
+      "gap_date": "2026-09-21",
+      "gap_status": "PARTIALLY_FILLED",
+      "recent_return_pct": 0.7927927927927927,
+      "gap_day_verified": true,
+      "current_verified": true,
+      "fill_history_verified": true
+    }
+  ]
+}

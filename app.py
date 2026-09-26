@@ -16,6 +16,7 @@ from src.logging_config import configure_logging
 from src.models import FeedSource, WatchlistStock
 from src.sources.yahoo_global import fetch_yahoo_finance_news
 from src.pchome_panel import render_pchome_panel
+from src.navigation import render_navigation
 
 
 PROJECT_ROOT = Path(__file__).resolve().parent
@@ -23,6 +24,7 @@ NEWS_DATABASE = PROJECT_ROOT / "data" / "stock_news.db"
 
 
 st.set_page_config(page_title="Stock Dashboard", page_icon="🍎", layout="wide")
+render_navigation()
 
 
 @st.cache_data(ttl=300)

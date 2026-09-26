@@ -1,0 +1,220 @@
+{
+  "config": {
+    "detector": {
+      "min_history_days": 120,
+      "flagpole_days": 20,
+      "min_flagpole_return": 0.15,
+      "min_flag_days": 5,
+      "max_flag_days": 15,
+      "max_retracement": 0.5,
+      "slope_tolerance": 0.6,
+      "min_regression_r2": 0.35,
+      "breakout_volume_multiplier": 1.2,
+      "min_bull_flag_score": 60,
+      "full_trend_spread": 0.1,
+      "full_flagpole_return": 0.3,
+      "full_volume_contraction": 0.5,
+      "weights": {
+        "uptrend": 20,
+        "flagpole": 20,
+        "descending_flag": 20,
+        "pullback": 15,
+        "volume": 15,
+        "breakout": 10
+      }
+    },
+    "gap_lookback_days": 20,
+    "gap_definition": "FULL_GAP",
+    "min_gap_pct": 0.01,
+    "gap_breakout_window": 0,
+    "require_gap_volume_confirmation": true,
+    "min_breakout_volume_ratio": 1.2,
+    "min_gap_breakout_score": 0,
+    "only_untouched_gaps": false,
+    "full_breakout_strength": 0.05,
+    "full_gap_size": 0.05,
+    "full_volume_ratio": 3,
+    "full_trend_spread": 0.1,
+    "adjustment_change_tolerance": 0.001,
+    "max_unexplained_daily_change": 0.3,
+    "weights": {
+      "bull_flag": 25,
+      "breakout": 20,
+      "gap_size": 15,
+      "volume": 15,
+      "preservation": 15,
+      "current_trend": 10
+    }
+  },
+  "stats": {
+    "total": 1978,
+    "downloaded": 1978,
+    "analyzed": 1939,
+    "skipped": 39,
+    "events": 0,
+    "candidates": 0
+  },
+  "market_date": "2026-09-24 00:00:00",
+  "scan_time": "2026-09-25T09:05:45.808700+00:00",
+  "universe_errors": {},
+  "download_errors": {},
+  "issues": [
+    {
+      "ticker": "1441.TW",
+      "reason": "Latest market session missing/invalid; cannot certify current unfilled gap"
+    },
+    {
+      "ticker": "1538.TW",
+      "reason": "Latest market session missing/invalid; cannot certify current unfilled gap"
+    },
+    {
+      "ticker": "1541.TW",
+      "reason": "Latest market session missing/invalid; cannot certify current unfilled gap"
+    },
+    {
+      "ticker": "1589.TW",
+      "reason": "Latest market session missing/invalid; cannot certify current unfilled gap"
+    },
+    {
+      "ticker": "2321.TW",
+      "reason": "Latest market session missing/invalid; cannot certify current unfilled gap"
+    },
+    {
+      "ticker": "2601.TW",
+      "reason": "Latest market session missing/invalid; cannot certify current unfilled gap"
+    },
+    {
+      "ticker": "5906.TW",
+      "reason": "Latest market session missing/invalid; cannot certify current unfilled gap"
+    },
+    {
+      "ticker": "6550.TW",
+      "reason": "Latest market session missing/invalid; cannot certify current unfilled gap"
+    },
+    {
+      "ticker": "6655.TW",
+      "reason": "Latest market session missing/invalid; cannot certify current unfilled gap"
+    },
+    {
+      "ticker": "6807.TW",
+      "reason": "Latest market session missing/invalid; cannot certify current unfilled gap"
+    },
+    {
+      "ticker": "7803.TW",
+      "reason": "Insufficient history"
+    },
+    {
+      "ticker": "7835.TW",
+      "reason": "Insufficient history"
+    },
+    {
+      "ticker": "7855.TW",
+      "reason": "Insufficient history"
+    },
+    {
+      "ticker": "2064.TWO",
+      "reason": "Latest market session missing/invalid; cannot certify current unfilled gap"
+    },
+    {
+      "ticker": "2073.TWO",
+      "reason": "Latest market session missing/invalid; cannot certify current unfilled gap"
+    },
+    {
+      "ticker": "2926.TWO",
+      "reason": "Latest market session missing/invalid; cannot certify current unfilled gap"
+    },
+    {
+      "ticker": "2937.TWO",
+      "reason": "Latest market session missing/invalid; cannot certify current unfilled gap"
+    },
+    {
+      "ticker": "2947.TWO",
+      "reason": "Latest market session missing/invalid; cannot certify current unfilled gap"
+    },
+    {
+      "ticker": "3064.TWO",
+      "reason": "Latest market session missing/invalid; cannot certify current unfilled gap"
+    },
+    {
+      "ticker": "3067.TWO",
+      "reason": "Latest market session missing/invalid; cannot certify current unfilled gap"
+    },
+    {
+      "ticker": "3629.TWO",
+      "reason": "Latest market session missing/invalid; cannot certify current unfilled gap"
+    },
+    {
+      "ticker": "3718.TWO",
+      "reason": "Insufficient history"
+    },
+    {
+      "ticker": "4192.TWO",
+      "reason": "Latest market session missing/invalid; cannot certify current unfilled gap"
+    },
+    {
+      "ticker": "4609.TWO",
+      "reason": "Latest market session missing/invalid; cannot certify current unfilled gap"
+    },
+    {
+      "ticker": "4804.TWO",
+      "reason": "Latest market session missing/invalid; cannot certify current unfilled gap"
+    },
+    {
+      "ticker": "4806.TWO",
+      "reason": "Latest market session missing/invalid; cannot certify current unfilled gap"
+    },
+    {
+      "ticker": "5345.TWO",
+      "reason": "Latest market session missing/invalid; cannot certify current unfilled gap"
+    },
+    {
+      "ticker": "5703.TWO",
+      "reason": "Latest market session missing/invalid; cannot certify current unfilled gap"
+    },
+    {
+      "ticker": "6615.TWO",
+      "reason": "Latest market session missing/invalid; cannot certify current unfilled gap"
+    },
+    {
+      "ticker": "6662.TWO",
+      "reason": "Latest market session missing/invalid; cannot certify current unfilled gap"
+    },
+    {
+      "ticker": "6855.TWO",
+      "reason": "Latest market session missing/invalid; cannot certify current unfilled gap"
+    },
+    {
+      "ticker": "6904.TWO",
+      "reason": "Latest market session missing/invalid; cannot certify current unfilled gap"
+    },
+    {
+      "ticker": "6929.TWO",
+      "reason": "Latest market session missing/invalid; cannot certify current unfilled gap"
+    },
+    {
+      "ticker": "7782.TWO",
+      "reason": "Latest market session missing/invalid; cannot certify current unfilled gap"
+    },
+    {
+      "ticker": "7794.TWO",
+      "reason": "Insufficient history"
+    },
+    {
+      "ticker": "7856.TWO",
+      "reason": "Insufficient history"
+    },
+    {
+      "ticker": "8183.TWO",
+      "reason": "Latest market session missing/invalid; cannot certify current unfilled gap"
+    },
+    {
+      "ticker": "8921.TWO",
+      "reason": "Latest market session missing/invalid; cannot certify current unfilled gap"
+    },
+    {
+      "ticker": "8923.TWO",
+      "reason": "Latest market session missing/invalid; cannot certify current unfilled gap"
+    }
+  ],
+  "audits": []
+}

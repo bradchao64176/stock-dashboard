@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Apple Stock Dashboard
 
 A beginner-friendly Streamlit app that displays current and historical stock data from Yahoo Finance. It starts with Apple (`AAPL`) and can search for other ticker symbols.
@@ -197,3 +198,7 @@ The Streamlit Financial News section also has an **Analyze pending news** button
 inference is never started merely by opening an already-analyzed article. The displayed per-stock
 score is the importance-weighted mean sentiment score across the analyzed articles currently
 shown; it is an informational signal, not investment advice.
+=======
+# stock-dashboard
+stock-dashboard
+>>>>>>> b981ec86a1bdd501570f116da7ec23cd9a84dcbe
