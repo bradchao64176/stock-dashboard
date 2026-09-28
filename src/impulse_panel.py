@@ -68,7 +68,7 @@ def render_impulse_panel():
                     universe = universe[universe.market == market]
                 end = date.today() + timedelta(days=1)
                 start = date.today() - timedelta(days=max(365, int(length) * 5))
-                histories, errors = load_incremental_histories(universe.ticker.tolist(), start, end, ROOT / "data" / "unfilled_gap_prices.db")
+                histories, errors = load_incremental_histories(universe.ticker.tolist(), start, end, ROOT / "data" / "unfilled_gap_prices.db", refresh_lookback_months=1)
                 revenues = pd.DataFrame()
                 strong_cfg = StrongConfig()
                 if advanced:

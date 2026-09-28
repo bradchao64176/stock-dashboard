@@ -12,12 +12,14 @@ import pandas as pd
 from services.yahoo_history import download_histories
 
 
-def load_incremental_histories(tickers, start, end, cache_path, progress=None):
+def load_incremental_histories(tickers, start, end, cache_path, progress=None, refresh_lookback_months=0):
     """Daily-bar cache in the existing database; end is exclusive.
 
     Import existing action-inclusive snapshots once per symbol. Only request
     uncovered intervals; successful coverage includes non-trading dates. Failed
     downloads are never marked covered. Existing snapshot callers remain intact.
+    An opt-in refresh window widens short missing tails to include recent daily
+    sessions; older cached rows remain available for indicator warmup.
     """
     path = Path(cache_path)
     path.parent.mkdir(parents=True, exist_ok=True)
@@ -63,6 +65,13 @@ def load_incremental_histories(tickers, start, end, cache_path, progress=None):
                 cursor = max(cursor, hi)
             if cursor < end:
                 requests.setdefault((str(cursor.date()), str(end.date())), []).append(ticker)
+        if refresh_lookback_months:
+            widened = {}
+            for (lo, hi), symbols in requests.items():
+                window_start = pd.Timestamp(hi) - pd.DateOffset(months=refresh_lookback_months)
+                lo = str(max(start, min(pd.Timestamp(lo), window_start)).date())
+                widened.setdefault((lo, hi), []).extend(symbols)
+            requests = {bounds: list(dict.fromkeys(symbols)) for bounds, symbols in widened.items()}
         for (lo, hi), symbols in requests.items():
             downloaded, failed = download_histories(symbols, start=lo, end=hi, actions=True, progress=progress)
             errors.update(failed)

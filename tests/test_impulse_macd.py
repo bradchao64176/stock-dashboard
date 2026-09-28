@@ -93,6 +93,26 @@ class ImpulseTests(unittest.TestCase):
             load_incremental_histories(["2330.TW"], start, end, path)
             self.assertEqual(download.call_count, 2)
 
+    def test_one_month_refresh_preserves_indicator_history(self):
+        raw = prices(200)
+        start = raw.index[0]
+        end = raw.index[-1] + pd.Timedelta(days=4)
+        window_start = end - pd.DateOffset(months=1)
+        with tempfile.TemporaryDirectory() as temp, patch("services.backtest_history.download_histories") as download:
+            path = Path(temp) / "cache.db"
+            download.return_value = ({"2330.TW": raw}, {})
+            load_incremental_histories(["2330.TW"], start, raw.index[-1] + pd.Timedelta(days=1), path)
+            download.return_value = ({"2330.TW": raw.loc[window_start:]}, {})
+            data, errors = load_incremental_histories(["2330.TW"], start, end, path, refresh_lookback_months=1)
+            self.assertFalse(errors)
+            self.assertEqual(download.call_args.kwargs["start"], str(window_start.date()))
+            self.assertEqual(download.call_args.kwargs["end"], str(end.date()))
+            self.assertEqual(len(data["2330.TW"]), 200)
+            np.testing.assert_allclose(data["2330.TW"].Close, raw.Close)
+            self.assertTrue(np.isfinite(calculate_impulse(data["2330.TW"]).MA60.iloc[-1]))
+            load_incremental_histories(["2330.TW"], start, end, path, refresh_lookback_months=1)
+            self.assertEqual(download.call_count, 2)
+
     def test_reuses_existing_action_snapshot_without_network(self):
         raw = prices(10)
         with tempfile.TemporaryDirectory() as temp, patch("services.backtest_history.download_histories", return_value=({"2330.TW": raw}, {})) as download:
@@ -126,6 +146,7 @@ class ImpulseTests(unittest.TestCase):
             self.assertEqual(len(app.get("plotly_chart")), 1)
             app.checkbox[-1].check().run(timeout=20)
             service.assert_called_once()
+            self.assertEqual(service.call_args.kwargs["refresh_lookback_months"], 1)
 
 
 if __name__ == "__main__":

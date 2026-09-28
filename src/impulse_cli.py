@@ -32,7 +32,7 @@ def main():
                                   universe[universe.market == "TPEx"].head(args.limit // 2)])
         else:
             universe = universe.head(args.limit)
-    histories, errors = load_incremental_histories(universe.ticker.tolist(), args.start, args.end, Path("data/unfilled_gap_prices.db"))
+    histories, errors = load_incremental_histories(universe.ticker.tolist(), args.start, args.end, Path("data/unfilled_gap_prices.db"), refresh_lookback_months=1)
     config = ImpulseConfig(cross_lookback_days=args.lookback)
     revenue_errors = {}
     if args.strong:
