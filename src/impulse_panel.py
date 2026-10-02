@@ -123,6 +123,9 @@ def render_impulse_panel():
         st.plotly_chart(impulse_chart(snapshot["details"][ticker], event), use_container_width=True)
         with st.expander("All qualifying crossover events"):
             st.dataframe(snapshot["events"][snapshot["events"].ticker == ticker], hide_index=True)
+    if completed_preset != "Pure Impulse Golden Cross":
+        from src.entry_timing_panel import render_entry_timing_panel
+        render_entry_timing_panel(snapshot, st.session_state.impulse_config)
     if not snapshot["issues"].empty:
         with st.expander("Skipped stocks / data issues"):
             st.dataframe(snapshot["issues"], hide_index=True)
