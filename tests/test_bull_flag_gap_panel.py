@@ -17,6 +17,8 @@ class GapPanelTests(unittest.TestCase):
             self.assertFalse(app.exception)
             download.assert_not_called()
             self.assertEqual(next(s for s in app.selectbox if s.label.startswith("Gap Lookback")).value, 20)
+            # Preserve original scanner assertions with the new optional post-filter disabled.
+            app.session_state["liquidity_bear_flag_gap_enabled"] = False
             app.button[0].click().run(timeout=20)
             self.assertFalse(app.exception)
             self.assertFalse(app.error)
@@ -36,6 +38,8 @@ class GapPanelTests(unittest.TestCase):
              patch("src.bull_flag_gap_panel.cached_histories", return_value=({}, {"2330.TW": "offline"})):
             app = AppTest.from_file(str(Path(__file__).parents[1] / "app.py"))
             app.switch_page("pages/3_下降旗形多方缺口突破.py").run(timeout=20)
+            # Preserve original scanner assertions with the new optional post-filter disabled.
+            app.session_state["liquidity_bear_flag_gap_enabled"] = False
             app.button[0].click().run(timeout=20)
             self.assertFalse(app.exception)
             self.assertTrue(app.warning)

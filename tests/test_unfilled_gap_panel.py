@@ -33,6 +33,8 @@ class UnfilledPanelTests(unittest.TestCase):
                 self.assertTrue(next(c for c in app.checkbox if c.label == name).value)
             self.assertEqual(next(c for c in app.selectbox if c.label == "Trend Evaluation").value, "GAP_DAY_AND_CURRENT")
             download.assert_not_called()
+            # Preserve original scanner assertions with the new optional post-filter disabled.
+            app.session_state["liquidity_unfilled_gap_enabled"] = False
             app.button[0].click().run(timeout=20)
             self.assertFalse(app.exception)
             self.assertFalse(app.error)

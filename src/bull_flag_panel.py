@@ -5,6 +5,7 @@ import sqlite3
 
 import pandas as pd
 import plotly.graph_objects as go
+from src.chart_interaction import apply_crosshair, apply_price_hover, normalize_chart_history, validate_date_chart
 import streamlit as st
 
 from services.taiwan_universe import fetch_taiwan_universe
@@ -58,6 +59,7 @@ def load_news_scores(path, codes):
 
 
 def candidate_chart(data, result):
+    data = normalize_chart_history(data)
     visible = data.tail(100)
     fig = go.Figure(go.Candlestick(x=visible.index, open=visible.Open, high=visible.High,
                                  low=visible.Low, close=visible.Close, name="日線"))
@@ -74,7 +76,8 @@ def candidate_chart(data, result):
                                 marker=dict(size=14, symbol="triangle-up"), name="突破"))
     fig.update_layout(height=500, xaxis_rangeslider_visible=False, yaxis_title="TWD",
                       margin=dict(l=10, r=10, t=20, b=10))
-    return fig
+    apply_crosshair(fig)
+    return validate_date_chart(apply_price_hover(fig, visible))
 
 
 def render_bull_flag_panel():
@@ -150,9 +153,11 @@ def render_bull_flag_panel():
     result = filter_candidates(snapshot["patterns"], market, minimum, min_return,
                                flag_days, max_pullback, max_volume, status)
     result["news_score"] = result.stock_code.map(snapshot["news_scores"])
+    from src.liquidity_panel import apply_liquidity_controls
+    result = apply_liquidity_controls("bear_flag", result, snapshot["details"])
     st.caption(f"符合篩選：{len(result)} 檔。News Score 使用既有最近 20 篇新聞的分析結果，與型態分數分開。")
     st.caption("80–100：強候選 · 70–79：觀察名單 · 60–69：弱候選 · 低於 60 分預設隱藏。")
-    columns = ["rank", "stock_code", "stock_name", "market", "status", "close", "price_date",
+    columns = ["rank", "stock_code", "stock_name", "market", "成交值", "status", "close", "price_date",
                "flagpole_return_pct", "pullback_pct", "volume_ratio", "bull_flag_score", "news_score"]
     for tab, state in zip(st.tabs(["🟡 形成中", "🟢 突破"]), ("FORMING", "BREAKOUT")):
         with tab:
@@ -169,6 +174,8 @@ def render_bull_flag_panel():
                                  "pullback_pct": st.column_config.NumberColumn("高點回落 (%)", format="%.2f"),
                                  "news_score": st.column_config.NumberColumn("News Score", format="%.2f")})
     if result.empty:
+        from src.entry_line_panel import render_scanner_entry_section
+        render_scanner_entry_section("bear_flag", result, snapshot)
         return
     st.download_button("下載候選 CSV", result.to_csv(index=False).encode("utf-8-sig"),
                        "bull_flag_candidates.csv", "text/csv")
@@ -185,12 +192,14 @@ def render_bull_flag_panel():
                "回撤是旗桿漲幅被回吐的比例，高點回落是相對旗桿高點的跌幅。")
     st.dataframe(pd.DataFrame([{"component": key[6:], "points": value}
                               for key, value in row.items() if key.startswith("score_")]), hide_index=True)
-    data = snapshot["details"][ticker]
+    data = normalize_chart_history(snapshot["details"][ticker])
     st.plotly_chart(candidate_chart(data, row), use_container_width=True)
     volume = go.Figure(go.Bar(x=data.tail(100).index, y=data.Volume.tail(100), name="成交股數"))
     for name in ("Volume_MA5", "Volume_MA20"):
         volume.add_trace(go.Scatter(x=data.tail(100).index, y=data[name].tail(100), name=name))
     volume.update_layout(height=250, yaxis_title="股")
-    st.plotly_chart(volume, use_container_width=True)
+    st.plotly_chart(validate_date_chart(apply_crosshair(volume)), use_container_width=True)
     st.caption("台北時間 14:00 前排除當日日線；請核對價格日期。歷史價格依 Adj Close 調整並錨定最新報價。"
                "分數是規則評分，尚未經績效回測。")
+    from src.entry_line_panel import render_scanner_entry_section
+    render_scanner_entry_section("bear_flag", result, snapshot)

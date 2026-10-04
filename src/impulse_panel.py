@@ -3,6 +3,7 @@ from datetime import date, timedelta
 
 import pandas as pd
 import plotly.graph_objects as go
+from src.chart_interaction import apply_crosshair, apply_price_hover, normalize_chart_history, validate_date_chart
 from plotly.subplots import make_subplots
 import streamlit as st
 
@@ -16,6 +17,7 @@ from backtesting.config import BacktestConfig, TradingCosts
 
 
 def impulse_chart(data, event):
+    data = normalize_chart_history(data)
     view = data.tail(160)
     fig = make_subplots(rows=3, cols=1, shared_xaxes=True, row_heights=[.5, .2, .3], vertical_spacing=.04)
     fig.add_trace(go.Candlestick(x=view.index, open=view.Open, high=view.High, low=view.Low, close=view.Close, name="Price"), row=1, col=1)
@@ -30,7 +32,8 @@ def impulse_chart(data, event):
     fig.add_hline(y=0, row=3, col=1)
     fig.add_trace(go.Scatter(x=[event.golden_cross_date], y=[event.signal_close], mode="markers", name="Golden cross", marker=dict(size=12, color="gold")), row=1, col=1)
     fig.update_layout(height=650, xaxis_rangeslider_visible=False)
-    return fig
+    apply_crosshair(fig, stacked=True)
+    return validate_date_chart(apply_price_hover(fig, view))
 
 
 def render_impulse_panel():
@@ -107,6 +110,8 @@ def render_impulse_panel():
     confirm = st.checkbox("Current histogram > 0 (optional confirmation)", False)
     if confirm and not result.empty:
         result = result[result.current_histogram > 0]
+    from src.liquidity_panel import apply_liquidity_controls
+    result = apply_liquidity_controls("impulse_macd", result, snapshot["details"])
     if result.empty:
         st.info("No qualifying golden crosses for these settings.")
     else:
@@ -123,9 +128,8 @@ def render_impulse_panel():
         st.plotly_chart(impulse_chart(snapshot["details"][ticker], event), use_container_width=True)
         with st.expander("All qualifying crossover events"):
             st.dataframe(snapshot["events"][snapshot["events"].ticker == ticker], hide_index=True)
-    if completed_preset != "Pure Impulse Golden Cross":
-        from src.entry_timing_panel import render_entry_timing_panel
-        render_entry_timing_panel(snapshot, st.session_state.impulse_config)
+    from src.entry_line_panel import render_scanner_entry_section
+    render_scanner_entry_section("impulse_macd", result, snapshot, st.session_state.impulse_config)
     if not snapshot["issues"].empty:
         with st.expander("Skipped stocks / data issues"):
             st.dataframe(snapshot["issues"], hide_index=True)

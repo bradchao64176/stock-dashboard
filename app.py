@@ -4,6 +4,7 @@ from pathlib import Path
 from urllib.parse import quote
 
 import plotly.graph_objects as go
+from src.chart_interaction import apply_crosshair, apply_price_hover
 import streamlit as st
 import yfinance as yf
 
@@ -349,7 +350,8 @@ try:
         template="plotly_white",
         xaxis_rangeslider_visible=False,
     )
-    st.plotly_chart(price_chart, use_container_width=True, config={"scrollZoom": True})
+    apply_price_hover(price_chart, history)
+    st.plotly_chart(apply_crosshair(price_chart), use_container_width=True, config={"scrollZoom": True})
 
     st.subheader(f"Trading Volume — {selected_label}")
     volume_chart = go.Figure(
@@ -363,7 +365,7 @@ try:
         hovermode="x unified",
         template="plotly_white",
     )
-    st.plotly_chart(volume_chart, use_container_width=True, config={"scrollZoom": True})
+    st.plotly_chart(apply_crosshair(volume_chart), use_container_width=True, config={"scrollZoom": True})
 
     st.subheader("Technical Indicators")
 
@@ -388,7 +390,7 @@ try:
             yaxis_range=[0, 100],
             template="plotly_white",
         )
-        st.plotly_chart(rsi_chart, use_container_width=True)
+        st.plotly_chart(apply_crosshair(rsi_chart), use_container_width=True)
 
     with st.expander("MACD (Moving Average Convergence Divergence)"):
         ema_12 = history["Close"].ewm(span=12, adjust=False).mean()
@@ -412,7 +414,7 @@ try:
             hovermode="x unified",
             template="plotly_white",
         )
-        st.plotly_chart(macd_chart, use_container_width=True)
+        st.plotly_chart(apply_crosshair(macd_chart), use_container_width=True)
 
     with st.expander("Bollinger Bands"):
         middle_band = history["Close"].rolling(window=20).mean()
@@ -448,7 +450,7 @@ try:
             hovermode="x unified",
             template="plotly_white",
         )
-        st.plotly_chart(bands_chart, use_container_width=True)
+        st.plotly_chart(apply_crosshair(bands_chart), use_container_width=True)
 
     st.subheader("Historical Data")
     table = history.reset_index()

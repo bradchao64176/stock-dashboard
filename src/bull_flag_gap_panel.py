@@ -3,6 +3,7 @@ from dataclasses import asdict, replace
 
 import pandas as pd
 import streamlit as st
+from src.chart_interaction import validate_date_chart
 
 from src.bull_flag_gap import scan_gap_universe, filter_gap_events, STATUSES
 from src.bull_flag_gap_config import GapConfig
@@ -25,7 +26,7 @@ def gap_chart(data, event):
     fig.add_annotation(x=event.gap_date, y=event.gap_top, text="Original gap zone", showarrow=True)
     if pd.notna(event.gap_fill_date):
         fig.add_annotation(x=event.gap_fill_date, y=event.gap_bottom, text="Gap filled", showarrow=True)
-    return fig
+    return validate_date_chart(fig)
 
 
 def render_gap_panel():
@@ -112,12 +113,16 @@ def render_gap_panel():
     selected = filter_gap_events(snapshot["events"], market=market, statuses=statuses, only_untouched=untouched,
                                  min_bull_flag_score=minimum_bull, min_gap_score=minimum_score,
                                  min_gap_pct=minimum_gap, require_volume=require_volume, min_volume_ratio=ratio)
+    from src.liquidity_panel import apply_liquidity_controls
+    selected = apply_liquidity_controls("bear_flag_gap", selected, snapshot["details"])
     st.metric("符合條件股票", len(selected))
     st.caption("預設只顯示未觸及／部分回補；每檔取符合篩選的最新缺口。缺資料或後續價格基準變動的事件不認證為未回補。")
     if selected.empty:
+        from src.entry_line_panel import render_scanner_entry_section
+        render_scanner_entry_section("bear_flag_gap", selected, snapshot)
         st.info("目前沒有符合條件的股票；沒有使用示範數字。")
         return
-    table = selected[["rank", "stock_code", "stock_name", "market", "current_close", "gap_date",
+    table = selected[["rank", "stock_code", "stock_name", "market", "成交值", "current_close", "gap_date",
                       "breakout_date", "trading_days_since_gap", "gap_pct", "gap_fill_pct", "gap_status",
                       "breakout_volume_ratio", "bull_flag_score", "gap_breakout_score"]].copy()
     table["gap_pct"] *= 100
@@ -149,3 +154,5 @@ def render_gap_panel():
     st.plotly_chart(gap_chart(snapshot["details"][ticker], row), use_container_width=True)
     st.caption("成交量分母為突破前 20 根均量，不含突破日。交易日曆由本次下載股票的實際有量日期聯集推定。"
                "企業行動、Yahoo 缺漏／追溯修正可能造成漏選；Gap Score 是規則分數，非獲利機率。")
+    from src.entry_line_panel import render_scanner_entry_section
+    render_scanner_entry_section("bear_flag_gap", selected, snapshot)

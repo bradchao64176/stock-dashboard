@@ -246,6 +246,8 @@ class EntryTests(unittest.TestCase):
             app = AppTest.from_file(str(Path(__file__).parents[1] / "app.py"))
             app.switch_page("pages/5_Impulse_MACD.py").run(timeout=20)
             app.selectbox[0].set_value("Strong Golden Cross").run()
+            # Preserve original scanner assertions with the new optional post-filter disabled.
+            app.session_state["liquidity_impulse_macd_enabled"] = False
             app.button[0].click().run(timeout=20)
             self.assertFalse(app.exception)
             self.assertTrue(any("Entry Timing Analysis" in h.value for h in app.subheader))

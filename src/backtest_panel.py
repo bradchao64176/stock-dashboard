@@ -5,6 +5,7 @@ import json
 
 import pandas as pd
 import plotly.graph_objects as go
+from src.chart_interaction import apply_crosshair, apply_price_hover, normalize_chart_history, validate_date_chart
 import streamlit as st
 
 from backtesting.config import BacktestConfig, TradingCosts
@@ -13,6 +14,8 @@ from backtesting.metrics import equity_curve, parameter_analysis
 from services.backtest_history import load_backtest_histories
 from src.bull_flag_config import BullFlagConfig
 from src.bull_flag_panel import ROOT, cached_universe
+from services.liquidity_filter import filter_backtest_signals
+from src.liquidity_panel import render_liquidity_control, show_liquidity_stats
 
 
 @st.cache_data(ttl=3600, max_entries=2, show_spinner=False)
@@ -25,6 +28,7 @@ def cached_signal_set(universe, histories, config, start, end):
 
 
 def trade_chart(data, row):
+    data = normalize_chart_history(data)
     start = max(0, int(data.index.get_loc(row.flagpole_start)) - 10)
     end = min(len(data), int(row.exit_index) + 6)
     visible = data.iloc[start:end]
@@ -47,7 +51,8 @@ def trade_chart(data, row):
             fig.add_trace(go.Scatter(x=[when], y=[price], mode="markers", name=label, marker=dict(size=12)))
     fig.add_vrect(x0=row.flagpole_start, x1=row.flag_start, fillcolor="green", opacity=.08, line_width=0)
     fig.update_layout(height=520, xaxis_rangeslider_visible=False, yaxis_title="Yahoo OHLC (TWD)")
-    return fig
+    apply_crosshair(fig)
+    return validate_date_chart(apply_price_hover(fig, visible))
 
 
 def fmt(value, percent=False):
@@ -60,6 +65,8 @@ def render_backtest_panel():
     st.title("下降旗形策略回測")
     st.caption("Bull Flag Backtest · 下一交易日開盤進場 · 以實際資料比較 +nR / −1R")
     st.warning("目前使用現存 TWSE／TPEx 公司名單，有存活者偏差。歷史結果不代表未來獲利。")
+    liquidity = render_liquidity_control("bear_flag_backtest")
+    st.caption("歷史成交值設定需按執行回測套用；每筆使用訊號當日成交值。")
     with st.expander("回測設定", expanded="bull_flag_backtest" not in st.session_state):
         with st.form("backtest_controls"):
             a, b, c = st.columns(3)
@@ -141,22 +148,31 @@ def render_backtest_panel():
                             progress=lambda done, total: bar.progress(done / total, text=f"下載 {done}/{total}"))
                         bar.empty()
                     signal_set = cached_signal_set(universe, histories, config, str(start), str(end))
+                    signal_set = filter_backtest_signals(signal_set, liquidity)
                     with st.spinner("模擬各組 RR／持有期…"):
                         result = execute_backtest(signal_set, config, str(split) if split_on else None, str(end))
-                    result.update(histories=signal_set["histories"], download_errors=errors,
+                    result.update(histories=signal_set["histories"], liquidity_stats=signal_set["liquidity_stats"], download_errors=errors,
                                   roster_errors=roster_errors, start=str(start), end=str(end))
                     st.session_state["bull_flag_backtest"] = result
                 except Exception as error:
                     st.error(f"回測未完成，保留先前結果：{error}")
     result = st.session_state.get("bull_flag_backtest")
     if result is None:
+        from src.entry_line_panel import render_backtest_current_entries
+        render_backtest_current_entries(liquidity)
         st.info("設定參數後按「執行回測」。預設先取 20 檔；全市場可將最多股票數設為 0。")
         return
     render_results(result)
+    from src.entry_line_panel import render_backtest_current_entries
+    render_backtest_current_entries(liquidity)
 
 
 def render_results(result):
     config = result["config"]
+    if "liquidity_stats" in result:
+        show_liquidity_stats(result["liquidity_stats"])
+        with st.expander("歷史訊號成交值（訊號當日）"):
+            st.dataframe(result["signals"], hide_index=True)
     comparison = result["comparison"]
     st.caption(f'訊號期間：{result["start"]} — {result["end"]} · 快照：{result["generated_at"]}')
     for market, error in result["roster_errors"].items():

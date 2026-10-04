@@ -4,6 +4,7 @@ from datetime import date, timedelta
 
 import pandas as pd
 import plotly.graph_objects as go
+from src.chart_interaction import apply_crosshair, apply_price_hover, normalize_chart_history, validate_date_chart
 import streamlit as st
 
 from services.backtest_history import load_backtest_histories
@@ -14,6 +15,7 @@ from src.unfilled_gap_config import UnfilledGapConfig, TrendConfig
 
 
 def unfilled_chart(data, event):
+    data = normalize_chart_history(data)
     view = data.tail(140)
     chart = go.Figure(go.Candlestick(x=view.index, open=view.Open, high=view.High, low=view.Low, close=view.Close, name="OHLC"))
     for period in (5, 10, 20, 60):
@@ -22,7 +24,8 @@ def unfilled_chart(data, event):
                     fillcolor="orange", opacity=.22, line=dict(color="orange"), layer="below")
     chart.add_trace(go.Scatter(x=[event.gap_date], y=[event.gap_day_close], mode="markers", name="Gap day", marker=dict(size=12)))
     chart.update_layout(height=500, xaxis_rangeslider_visible=False, yaxis_title="TWD")
-    return chart
+    apply_crosshair(chart)
+    return validate_date_chart(apply_price_hover(chart, view))
 
 
 def render_unfilled_panel():
@@ -105,12 +108,16 @@ def render_unfilled_panel():
         st.dataframe(pd.DataFrame(snapshot["issues"]), hide_index=True)
     statuses = st.multiselect("Gap Status", list(LABELS), ["UNTOUCHED", "PARTIALLY_FILLED"], format_func=lambda x: LABELS[x])
     candidates = filter_unfilled_events(snapshot["events"], cfg, statuses=statuses)
+    from src.liquidity_panel import apply_liquidity_controls
+    candidates = apply_liquidity_controls("unfilled_gap", candidates, snapshot["details"])
     st.download_button("候選 CSV", candidates.to_csv(index=False).encode("utf-8-sig"), "unfilled_candidates.csv", "text/csv")
     st.download_button("全部事件 CSV（含歷史 MA）", snapshot["events"].to_csv(index=False).encode("utf-8-sig"), "unfilled_events.csv", "text/csv")
     if candidates.empty:
+        from src.entry_line_panel import render_scanner_entry_section
+        render_scanner_entry_section("unfilled_gap", candidates, snapshot)
         st.info("沒有符合條件的股票；請查看資料日期、條件與略過紀錄。")
         return
-    columns = ["rank", "stock_code", "stock_name", "market", "current_close", "recent_return_pct", "gap_date", "gap_pct",
+    columns = ["rank", "stock_code", "stock_name", "market", "成交值", "current_close", "recent_return_pct", "gap_date", "gap_pct",
                "gap_fill_pct", "current_ma20", "current_ma60", "current_ma20_slope_pct", "current_ma60_slope_pct",
                "ma20_ma60_distance_pct", "gap_day_ma20", "gap_day_ma60", "gap_status", "unfilled_gap_score"]
     table = candidates[columns].copy()
@@ -130,3 +137,5 @@ def render_unfilled_panel():
         st.dataframe(snapshot["events"][snapshot["events"].ticker == ticker], hide_index=True)
     st.caption("MA 金叉日期僅在歷史資料中觀察到明確穿越時顯示；資料起點已多頭時不猜測交叉日。"
                "目前未回補狀態不能用來篩選過去進場交易；有存活者偏差及日線資料限制。")
+    from src.entry_line_panel import render_scanner_entry_section
+    render_scanner_entry_section("unfilled_gap", candidates, snapshot)

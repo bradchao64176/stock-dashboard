@@ -96,7 +96,7 @@ def _day(value):
 
 
 def calculate_entry_analysis(candidate, history, config=EntryTimingConfig(), asof=None,
-                             impulse_config=ImpulseConfig()):
+                             impulse_config=ImpulseConfig(), candidate_kind="STRONG"):
     """Return one independent result, never mutating candidate/history.
 
     asof is the last available daily candle date. Supplied indicator columns
@@ -114,8 +114,10 @@ def calculate_entry_analysis(candidate, history, config=EntryTimingConfig(), aso
                   is_cross_entry=False, cross_entry_missed=False, action="INSUFFICIENT_DATA")
     result.update(calculate_risk_targets(0, None))
     try:
+        if candidate_kind not in ("STRONG", "IMPULSE", "SIGNAL"):
+            raise ValueError("Unknown candidate kind")
         selected = candidate.get("strong_golden_cross", False)
-        if pd.isna(selected) or selected != True:
+        if candidate_kind == "STRONG" and (pd.isna(selected) or selected != True):
             raise ValueError("Input must be an existing Strong Golden Cross candidate")
         if history is None or history.empty or not isinstance(history.index, pd.DatetimeIndex):
             raise ValueError("Missing daily history")
@@ -138,29 +140,33 @@ def calculate_entry_analysis(candidate, history, config=EntryTimingConfig(), aso
         row = data.iloc[-1]
         if min(row.Open, row.High, row.Low, row.Close, row.MA20, row.MA60) <= 0 or row.Volume < 0 or row.High < max(row.Open, row.Close, row.Low) or row.Low > min(row.Open, row.Close):
             raise ValueError("Invalid current OHLCV/averages")
-        cross_date = _day(candidate.get("golden_cross_date", candidate.get("cross_date")))
-        if cross_date not in data.index:
+        signal_date = candidate.get("signal_date") if candidate_kind == "SIGNAL" else candidate.get("golden_cross_date", candidate.get("cross_date"))
+        cross_date = _day(signal_date) if pd.notna(signal_date) else None
+        if cross_date is not None and cross_date not in data.index:
             raise ValueError("Cross date missing or after analysis date")
-        cross = data.loc[cross_date]
-        if pd.isna(cross.golden_cross) or not bool(cross.golden_cross):
+        if cross_date is None and candidate_kind != "SIGNAL":
+            raise ValueError("Missing golden cross date")
+        cross = data.loc[cross_date] if cross_date is not None else None
+        if candidate_kind != "SIGNAL" and (pd.isna(cross.golden_cross) or not bool(cross.golden_cross)):
             raise ValueError("Candidate date is not an actual golden cross")
-        age = len(data) - 1 - data.index.get_loc(cross_date)
+        age = len(data) - 1 - data.index.get_loc(cross_date) if cross is not None else None
         resistance = float(data.High.shift(1).rolling(config.resistance_lookback).max().iloc[-1])
         swing = find_recent_swing_low(data, config.swing_lookback)
         atr = float(calculate_atr(data, config.atr_period).iloc[-1])
         prev = float(data.Impulse_Histogram.iloc[-2])
-        if not all(math.isfinite(float(v)) for v in (resistance, swing, atr, prev, cross.High, cross.Low, cross.Close)) or atr < 0 or min(resistance, swing, cross.High, cross.Low, cross.Close) <= 0:
+        refs = (resistance, swing) + ((cross.High, cross.Low, cross.Close) if cross is not None else ())
+        if not all(math.isfinite(float(v)) for v in (*refs, atr, prev)) or atr < 0 or min(refs) <= 0:
             raise ValueError("Missing reference bars")
         low, high = calculate_pullback_zone(row.MA20, config)
         blo, bhi = calculate_breakout_zone(resistance, config)
-        clo, chi = calculate_cross_entry_zone(cross.High, config)
+        clo, chi = calculate_cross_entry_zone(cross.High, config) if cross is not None else (None, None)
         direction = calculate_histogram_direction(row.Impulse_Histogram, prev)
-        contraction = bool(row.volume_ratio_20 < cross.volume_ratio_20) if math.isfinite(cross.volume_ratio_20) else None
+        contraction = bool(row.volume_ratio_20 < cross.volume_ratio_20) if cross is not None and math.isfinite(cross.volume_ratio_20) else None
         trend = bool(row.Close >= row.MA20 and row.MA20 > row.MA60 and row.ma20_slope_pct > 0)
         momentum = bool(row.Impulse_MACD > row.Impulse_Signal and row.Impulse_Histogram > 0)
         pullback = trend and momentum and low <= row.Close <= high and (not config.require_volume_contraction or contraction is True)
         breakout = trend and momentum and blo <= row.Close <= bhi and row.volume_ratio_20 >= config.breakout_volume_ratio and (not config.require_expanding_breakout or direction == "EXPANDING")
-        cross_entry = trend and momentum and clo <= row.Close <= chi and age <= config.max_cross_entry_age_days
+        cross_entry = cross is not None and trend and momentum and clo <= row.Close <= chi and age <= config.max_cross_entry_age_days
         distance = (row.Close / row.MA20 - 1) * 100
         status = classify_entry_status(trend, pullback, breakout, cross_entry, distance, config)
         kind, elo, ehi = ("BREAKOUT", blo, bhi) if status == "BREAKOUT_ZONE" else (("CROSS", clo, chi) if status == "CROSS_ENTRY" else ("PULLBACK", low, high))
@@ -170,12 +176,12 @@ def calculate_entry_analysis(candidate, history, config=EntryTimingConfig(), aso
                       ma20_rising=bool(row.ma20_slope_pct > 0), distance_ma20_pct=float(distance), impulse_macd=float(row.Impulse_MACD),
                       impulse_signal=float(row.Impulse_Signal), histogram=float(row.Impulse_Histogram), previous_histogram=prev,
                       histogram_change=float(row.Impulse_Histogram - prev), histogram_direction=direction,
-                      current_volume_ratio=float(row.volume_ratio_20), cross_day_volume_ratio=float(cross.volume_ratio_20), volume_contraction=contraction,
-                      recent_20d_high=resistance, cross_date=str(cross_date.date()), cross_day_high=float(cross.High), cross_day_low=float(cross.Low),
-                      cross_day_close=float(cross.Close), cross_age_days=age, pullback_entry_low=float(low), pullback_entry_high=float(high),
-                      breakout_entry_low=float(blo), breakout_entry_high=float(bhi), cross_entry_low=float(clo), cross_entry_high=float(chi),
+                      current_volume_ratio=float(row.volume_ratio_20), cross_day_volume_ratio=float(cross.volume_ratio_20) if cross is not None else None, volume_contraction=contraction,
+                      recent_20d_high=resistance, cross_date=str(cross_date.date()) if cross_date is not None else None, cross_day_high=float(cross.High) if cross is not None else None, cross_day_low=float(cross.Low) if cross is not None else None,
+                      cross_day_close=float(cross.Close) if cross is not None else None, cross_age_days=age, pullback_entry_low=float(low), pullback_entry_high=float(high),
+                      breakout_entry_low=float(blo), breakout_entry_high=float(bhi), cross_entry_low=float(clo) if clo is not None else None, cross_entry_high=float(chi) if chi is not None else None,
                       entry_status=status, is_pullback_entry=bool(pullback), is_breakout_entry=bool(breakout), is_cross_entry=bool(cross_entry),
-                      cross_entry_missed=bool(row.Close > chi), primary_entry_type=kind, primary_entry_low=float(elo), primary_entry_high=float(ehi),
+                      cross_entry_missed=bool(cross is not None and row.Close > chi), primary_entry_type=kind, primary_entry_low=float(elo), primary_entry_high=float(ehi),
                       entry_zone_low=float(elo), entry_zone_high=float(ehi), entry_reference_price=float(entry), atr14=float(row.ATR), atr=atr,
                       atr_period=config.atr_period, recent_swing_low=swing, stop_ma20=float(ma_stop), reference_stop=stop, stop_source=source,
                       action="REFERENCE_ZONE_ACTIVE" if status in ("PULLBACK_ZONE", "BREAKOUT_ZONE", "CROSS_ENTRY") else

@@ -1,27 +1,30 @@
 """Additional Strong result analysis, using only the existing scan snapshot."""
 import streamlit as st
+import pandas as pd
 
 from services.entry_timing_config import EntryTimingConfig
 from services.entry_timing_service import analyze_candidates, STATUS_LABELS
 
 
-def render_entry_timing_panel(snapshot, impulse_config):
+def render_entry_timing_panel(snapshot, impulse_config, entry_results=None, key_prefix="entry_timing"):
     st.subheader("🎯 Entry Timing Analysis")
-    st.caption("Strong Golden Cross Entry Analysis · 技術進場區域分析。Reference zones and risk-unit targets are not price forecasts.")
+    st.caption("Entry Analysis · 技術進場區域分析。Reference zones and risk-unit targets are not price forecasts.")
     candidates = snapshot["candidates"]
     if candidates.empty:
-        st.info("No existing Strong Golden Cross candidates to analyze.")
+        st.info("No scanner candidates to analyze.")
         return
-    result = analyze_candidates(candidates, snapshot["details"], impulse_config=impulse_config)
+    result = entry_results if entry_results is not None else analyze_candidates(candidates, snapshot["details"], impulse_config=impulse_config)
     display = result.copy()
     display["entry_status"] = display.entry_status.map(STATUS_LABELS)
     columns = ["stock_code", "stock_name", "analysis_date", "current_price", "strong_golden_cross_score", "ma20", "ma60",
                "distance_ma20_pct", "impulse_macd", "impulse_signal", "histogram", "histogram_direction", "entry_status",
                "primary_entry_type", "entry_zone_low", "entry_zone_high", "entry_reference_price", "reference_stop", "risk_pct", "target_2r", "target_3r"]
+    if "成交值" in display:
+        columns.insert(4, "成交值")
     st.dataframe(display[columns], hide_index=True, use_container_width=True)
     st.download_button("Download entry analysis CSV", result.to_csv(index=False).encode("utf-8-sig"),
-                       "entry_timing_analysis.csv", "text/csv", key="entry_timing_export")
-    ticker = st.selectbox("Entry analysis stock", result.ticker.tolist(), key="entry_timing_stock")
+                       "entry_timing_analysis.csv", "text/csv", key=key_prefix + "_export")
+    ticker = st.selectbox("Entry analysis stock", result.ticker.tolist(), key=key_prefix + "_stock")
     row = result[result.ticker == ticker].iloc[0].to_dict()
     st.markdown(f"**{row['stock_code']} {row['stock_name']} — {STATUS_LABELS[row['entry_status']]}**")
     if row["entry_status"] == "UNKNOWN":
@@ -30,7 +33,7 @@ def render_entry_timing_panel(snapshot, impulse_config):
     st.write({"Price date": row["analysis_date"], "Current Price": row["current_price"], "Strong Golden Cross Score": row["strong_golden_cross_score"],
               "Impulse MACD": row["impulse_macd"], "Signal": row["impulse_signal"], "Histogram": row["histogram"],
               "Histogram Direction": row["histogram_direction"], "MA20": row["ma20"], "MA60": row["ma60"], "Distance MA20 %": row["distance_ma20_pct"]})
-    zone = lambda lo, hi: f"${row[lo]:.2f} ～ ${row[hi]:.2f}"
+    zone = lambda lo, hi: "N/A" if pd.isna(row[lo]) or pd.isna(row[hi]) else f"${row[lo]:.2f} ～ ${row[hi]:.2f}"
     st.write({"Primary Entry Type": row["primary_entry_type"], "Primary Reference Entry Zone": zone("entry_zone_low", "entry_zone_high"),
               "Pullback Entry Zone": zone("pullback_entry_low", "pullback_entry_high"),
               "Breakout Entry Zone": zone("breakout_entry_low", "breakout_entry_high"),

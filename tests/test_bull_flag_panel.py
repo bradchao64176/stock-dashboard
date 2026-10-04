@@ -21,6 +21,8 @@ class BullFlagPanelTests(unittest.TestCase):
             self.assertFalse(app.exception)
             roster.assert_not_called()
             download.assert_not_called()
+            # Preserve original scanner assertions with the new optional post-filter disabled.
+            app.session_state["liquidity_bear_flag_enabled"] = False
             app.button[0].click().run()
             self.assertFalse(app.exception)
             download.assert_called_once()
@@ -39,6 +41,8 @@ class BullFlagPanelTests(unittest.TestCase):
              patch("src.bull_flag_panel.cached_histories", return_value=({}, {"2330.TW": "offline"})), \
              patch("src.bull_flag_panel.load_news_scores", return_value={}):
             app = AppTest.from_string("from src.bull_flag_panel import render_bull_flag_panel\nrender_bull_flag_panel()").run()
+            # Preserve original scanner assertions with the new optional post-filter disabled.
+            app.session_state["liquidity_bear_flag_enabled"] = False
             app.button[0].click().run()
             self.assertFalse(app.exception)
             self.assertTrue(app.warning)

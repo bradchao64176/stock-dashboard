@@ -140,6 +140,8 @@ class ImpulseTests(unittest.TestCase):
             app.switch_page("pages/5_Impulse_MACD.py").run(timeout=20)
             self.assertFalse(app.exception)
             service.assert_not_called()
+            # Preserve original scanner assertions with the new optional post-filter disabled.
+            app.session_state["liquidity_impulse_macd_enabled"] = False
             app.button[0].click().run(timeout=20)
             self.assertFalse(app.exception)
             self.assertFalse(app.error)

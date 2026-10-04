@@ -50,6 +50,8 @@ class StorageAndUITests(unittest.TestCase):
             self.assertFalse(app.exception)
             download.assert_not_called()
             roster.assert_not_called()
+            # Preserve original scanner assertions with the new optional post-filter disabled.
+            next(c for c in app.checkbox if c.key == "_liquidity_bear_flag_backtest_enabled").uncheck().run()
             app.button[0].click().run(timeout=20)
             self.assertFalse(app.exception)
             self.assertFalse(app.error)
@@ -67,6 +69,8 @@ class StorageAndUITests(unittest.TestCase):
              patch("src.backtest_panel.load_backtest_histories", return_value=({}, {"2330.TW": "offline"})):
             app = AppTest.from_file(str(Path(__file__).parents[1] / "app.py"))
             app.switch_page("pages/2_下降旗形策略回測.py").run(timeout=20)
+            # Preserve original scanner assertions with the new optional post-filter disabled.
+            next(c for c in app.checkbox if c.key == "_liquidity_bear_flag_backtest_enabled").uncheck().run()
             app.button[0].click().run(timeout=20)
             self.assertFalse(app.exception)
             self.assertFalse(app.error)
