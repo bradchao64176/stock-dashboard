@@ -1,0 +1,9 @@
+{
+  "data\\backtest_prices.db": "a5c60f5d2221342d56839c369022d60dad3a289ec6d03ca0adc2978f8608fd96",
+  "data\\intraday_monitor.db": "9f99f09c2ec9a4107671fd635b902118df37897cc06543e6437e9cc22d4a6028",
+  "data\\intraday_monitor.db-shm": "fd4c9fda9cd3f9ae7c962b0ddf37232294d55580e1aa165aa06129b8549389eb",
+  "data\\intraday_monitor.db-wal": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "data\\pchome_history.db": "c66ad205f0d88c65e0db3eea7862fb9e863bfb88d575c51f8550acbda14dd91f",
+  "data\\stock_news.db": "82280b6533004e4df8caefe569916cdfe41551b6402bad29645b74f2460efa52",
+  "data\\unfilled_gap_prices.db": "7adb450a40513b772d4850bb52d11999538d971a19976cb819ed7f0292b9f3c8"
+}

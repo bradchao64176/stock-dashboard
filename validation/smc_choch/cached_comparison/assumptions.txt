@@ -1,0 +1,2 @@
+1000 shares; next daily open; 20 daily-session limit; realized equity on TWD 1M; no cross-stock capital cap; shorts hypothetical without borrow availability/cost; raw prices; action discontinuities censored; current universe survivorship and data-revision bias.
+{}

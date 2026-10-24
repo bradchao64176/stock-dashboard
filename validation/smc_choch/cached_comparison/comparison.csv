@@ -1,0 +1,5 @@
+strategy,total_trades,win_rate,average_return,max_drawdown,profit_factor,average_holding_days
+Original Pure Impulse MACD (long),41,0.7317073170731707,0.07103003064237629,-0.1386283953364046,3.9029863335234563,4.317073170731708
+CHOCH,4,0.25,0.06712071625457024,-0.025996829047638226,0.7125752653589268,9.0
+CHOCH + MACD,0,,,,,
+CHOCH followed by BOS,0,,,,,

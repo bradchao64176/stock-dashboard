@@ -9,4 +9,5 @@ def render_navigation():
     st.sidebar.page_link("pages/2_下降旗形策略回測.py", label="下降旗形策略回測")
     st.sidebar.page_link("pages/4_多方未回補缺口選股.py", label="多方未回補缺口選股")
     st.sidebar.page_link("pages/5_Impulse_MACD.py", label="Impulse MACD 黃金交叉選股")
+    st.sidebar.page_link("pages/6_SMC_CHOCH.py", label="SMC / CHOCH Stock Screener")
     
