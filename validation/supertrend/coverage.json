@@ -1,0 +1,103 @@
+{
+  "stats": {
+    "total_eligible": 1981,
+    "processed": 1981,
+    "evaluated": 1561,
+    "matched": 0,
+    "excluded": 1561,
+    "insufficient": 418,
+    "stale": 2,
+    "errors": 0
+  },
+  "download_stats": {
+    "cache_hits": 1981,
+    "requested_stocks": 1981,
+    "downloaded_stocks": 0,
+    "cache_only_stocks": 0,
+    "request_ranges": 6,
+    "offline": true
+  },
+  "scan_time": "2026-10-16T15:00:00",
+  "mode": "OFFLINE cached symbols; not a live exchange-universe verification",
+  "config": {
+    "timeframe": "Daily",
+    "ema_period": 200,
+    "warmup": 50,
+    "atr_period": 10,
+    "multiplier": 3.0,
+    "kd_period": 9,
+    "k_smoothing": 3,
+    "d_smoothing": 3,
+    "kd_ceiling": 40.0,
+    "deviation_enabled": true,
+    "deviation_min": 0.0,
+    "deviation_max": 10.0,
+    "value_enabled": true,
+    "min_value": 100000000.0
+  },
+  "database_stats": [
+    503553,
+    1981,
+    "2025-09-26",
+    "2026-10-16"
+  ],
+  "schema": [
+    [
+      "price_snapshots_actions",
+      "CREATE TABLE price_snapshots_actions (\n            ticker TEXT, start_date TEXT, end_date TEXT, stored_at REAL, fetched_at TEXT, payload TEXT,\n            PRIMARY KEY (ticker, start_date, end_date))"
+    ],
+    [
+      "sqlite_autoindex_price_snapshots_actions_1",
+      null
+    ],
+    [
+      "daily_prices",
+      "CREATE TABLE daily_prices (ticker TEXT, date TEXT, payload TEXT, PRIMARY KEY(ticker,date))"
+    ],
+    [
+      "sqlite_autoindex_daily_prices_1",
+      null
+    ],
+    [
+      "history_coverage",
+      "CREATE TABLE history_coverage (ticker TEXT, start TEXT, end TEXT, PRIMARY KEY(ticker,start,end))"
+    ],
+    [
+      "sqlite_autoindex_history_coverage_1",
+      null
+    ],
+    [
+      "monthly_revenue",
+      "CREATE TABLE monthly_revenue (\n                stock_code TEXT, year_month TEXT, revenue REAL, prior_year_revenue REAL,\n                revenue_yoy REAL, source TEXT, report_date TEXT, revenue_publish_date TEXT,\n                first_seen_at TEXT, updated_at TEXT, PRIMARY KEY(stock_code,year_month))"
+    ],
+    [
+      "sqlite_autoindex_monthly_revenue_1",
+      null
+    ],
+    [
+      "monthly_revenue_versions",
+      "CREATE TABLE monthly_revenue_versions (\n                stock_code TEXT, year_month TEXT, version TEXT, payload TEXT,\n                available_at TEXT, PRIMARY KEY(stock_code,year_month,version))"
+    ],
+    [
+      "sqlite_autoindex_monthly_revenue_versions_1",
+      null
+    ],
+    [
+      "revenue_fetches",
+      "CREATE TABLE revenue_fetches (source TEXT PRIMARY KEY, fetched_at TEXT)"
+    ],
+    [
+      "sqlite_autoindex_revenue_fetches_1",
+      null
+    ]
+  ],
+  "existing_databases_changed": [],
+  "database_hashes_before": {
+    "data\\backtest_prices.db": "a5c60f5d2221342d56839c369022d60dad3a289ec6d03ca0adc2978f8608fd96",
+    "data\\intraday_monitor.db": "9f99f09c2ec9a4107671fd635b902118df37897cc06543e6437e9cc22d4a6028",
+    "data\\pchome_history.db": "c66ad205f0d88c65e0db3eea7862fb9e863bfb88d575c51f8550acbda14dd91f",
+    "data\\smc_choch.db": "b8facfb3874f0f1e9349c45b2b79a195d1b84c5b5b9ea9a93f6fb4f6720cb176",
+    "data\\stock_news.db": "3a0f7de71db1617ad3fe7e616158aeec56b2c7ba7cf0ee8fdd8a61ede439891e",
+    "data\\unfilled_gap_prices.db": "b177f45c8cebc84c47556577ba2a0e92c51bc7e2d8861deaa5336926fdf2c7c9"
+  }
+}

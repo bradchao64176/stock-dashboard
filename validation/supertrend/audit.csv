@@ -1,0 +1,1982 @@
+ticker,status,reason
+1101.TW,EXCLUDED,kd_ok
+1102.TW,EXCLUDED,kd_ok
+1103.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+1104.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+1108.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+1109.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+1110.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+1201.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+1203.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+1210.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+1213.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+1215.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+1216.TW,EXCLUDED,kd_ok
+1217.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+1218.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+1219.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+1220.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+1225.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+1227.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+1229.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+1231.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+1232.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+1233.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+1234.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+1235.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+1236.TW,EXCLUDED,kd_ok; value_ok
+1240.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+1256.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+1259.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+1264.TWO,EXCLUDED,trend_ok; kd_ok; value_ok
+1268.TWO,EXCLUDED,kd_ok; value_ok
+1294.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+1295.TWO,EXCLUDED,trend_ok; kd_ok; value_ok
+1301.TW,EXCLUDED,deviation_ok; kd_ok
+1303.TW,EXCLUDED,deviation_ok; kd_ok
+1304.TW,EXCLUDED,kd_ok; value_ok
+1305.TW,EXCLUDED,kd_ok; value_ok
+1307.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+1308.TW,EXCLUDED,kd_ok; value_ok
+1309.TW,EXCLUDED,deviation_ok; kd_ok; value_ok
+1310.TW,EXCLUDED,kd_ok; value_ok
+1312.TW,EXCLUDED,kd_ok
+1313.TW,EXCLUDED,kd_ok; value_ok
+1314.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+1315.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+1316.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+1319.TW,EXCLUDED,trend_ok; kd_ok
+1321.TW,EXCLUDED,kd_ok; value_ok
+1323.TW,EXCLUDED,kd_ok; value_ok
+1324.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+1325.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+1326.TW,EXCLUDED,deviation_ok; kd_ok
+1336.TWO,EXCLUDED,kd_ok; value_ok
+1337.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+1338.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+1339.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+1340.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+1341.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+1342.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+1402.TW,EXCLUDED,kd_ok
+1409.TW,EXCLUDED,kd_ok
+1410.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+1413.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+1414.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+1416.TW,EXCLUDED,kd_ok; value_ok
+1417.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+1418.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+1419.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+1423.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+1432.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+1434.TW,EXCLUDED,kd_ok; value_ok
+1435.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+1436.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+1437.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+1438.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+1439.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+1440.TW,EXCLUDED,kd_ok; value_ok
+1441.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+1442.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+1443.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+1444.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+1445.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+1446.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+1447.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+1449.TW,EXCLUDED,kd_ok; value_ok
+1451.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+1452.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+1453.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+1454.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+1455.TW,EXCLUDED,kd_ok; value_ok
+1456.TW,EXCLUDED,deviation_ok; kd_ok; value_ok
+1457.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+1459.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+1460.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+1463.TW,EXCLUDED,kd_ok; value_ok
+1464.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+1465.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+1466.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+1467.TW,EXCLUDED,kd_ok; value_ok
+1468.TW,EXCLUDED,kd_ok; value_ok
+1470.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+1471.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+1472.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+1473.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+1474.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+1475.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+1476.TW,EXCLUDED,trend_ok; kd_ok
+1477.TW,EXCLUDED,trend_ok; kd_ok
+1503.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok
+1504.TW,EXCLUDED,trend_ok; kd_ok
+1506.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+1512.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+1513.TW,EXCLUDED,kd_ok
+1514.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+1515.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+1516.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+1517.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+1519.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok
+1521.TW,EXCLUDED,kd_ok; value_ok
+1522.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+1524.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+1525.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+1526.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+1527.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+1528.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok
+1529.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+1530.TW,EXCLUDED,kd_ok; value_ok
+1531.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+1532.TW,EXCLUDED,trend_ok; deviation_ok; value_ok
+1533.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+1535.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+1536.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+1537.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+1538.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+1539.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+1540.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+1541.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+1558.TW,EXCLUDED,kd_ok; value_ok
+1560.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok
+1563.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+1565.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+1568.TW,EXCLUDED,kd_ok; value_ok
+1569.TWO,EXCLUDED,deviation_ok; kd_ok
+1570.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+1580.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+1582.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+1583.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+1584.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+1586.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+1587.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+1589.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+1590.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok
+1591.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+1593.TWO,EXCLUDED,kd_ok; value_ok
+1595.TWO,EXCLUDED,trend_ok; deviation_ok; value_ok
+1597.TW,EXCLUDED,deviation_ok; kd_ok
+1598.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+1599.TWO,EXCLUDED,trend_ok; deviation_ok; value_ok
+1603.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+1604.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+1605.TW,EXCLUDED,kd_ok
+1608.TW,EXCLUDED,kd_ok; value_ok
+1609.TW,EXCLUDED,kd_ok
+1611.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+1612.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+1614.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+1615.TW,EXCLUDED,kd_ok; value_ok
+1616.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+1617.TW,EXCLUDED,kd_ok; value_ok
+1618.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+1623.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+1626.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+1702.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+1707.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+1708.TW,EXCLUDED,kd_ok
+1709.TW,EXCLUDED,kd_ok
+1710.TW,EXCLUDED,kd_ok; value_ok
+1711.TW,EXCLUDED,kd_ok
+1712.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+1713.TW,EXCLUDED,kd_ok; value_ok
+1714.TW,EXCLUDED,deviation_ok; kd_ok
+1717.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok
+1718.TW,EXCLUDED,kd_ok
+1720.TW,EXCLUDED,kd_ok; value_ok
+1721.TW,EXCLUDED,kd_ok; value_ok
+1722.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+1723.TW,EXCLUDED,kd_ok; value_ok
+1725.TW,EXCLUDED,kd_ok; value_ok
+1726.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+1727.TW,EXCLUDED,kd_ok
+1730.TW,EXCLUDED,trend_ok; deviation_ok; value_ok
+1731.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+1732.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+1733.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+1734.TW,EXCLUDED,kd_ok; value_ok
+1735.TW,EXCLUDED,kd_ok; value_ok
+1736.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+1737.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+1742.TWO,EXCLUDED,deviation_ok; kd_ok; value_ok
+1752.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+1760.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+1762.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+1773.TW,EXCLUDED,kd_ok; value_ok
+1776.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+1777.TWO,EXCLUDED,kd_ok; value_ok
+1780.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+1781.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+1783.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+1784.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+1785.TWO,EXCLUDED,kd_ok
+1786.TW,EXCLUDED,trend_ok; deviation_ok; value_ok
+1788.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+1789.TW,EXCLUDED,kd_ok; value_ok
+1795.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok
+1796.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+1799.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+1802.TW,EXCLUDED,deviation_ok; kd_ok
+1805.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+1806.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+1808.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+1809.TW,EXCLUDED,kd_ok; value_ok
+1810.TW,EXCLUDED,trend_ok; deviation_ok; value_ok
+1813.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+1815.TWO,EXCLUDED,deviation_ok; kd_ok
+1817.TW,EXCLUDED,kd_ok; value_ok
+1903.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+1904.TW,EXCLUDED,kd_ok; value_ok
+1905.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+1906.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+1907.TW,EXCLUDED,kd_ok; value_ok
+1909.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+2002.TW,EXCLUDED,kd_ok
+2006.TW,EXCLUDED,kd_ok
+2007.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+2008.TW,EXCLUDED,kd_ok; value_ok
+2009.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+2010.TW,EXCLUDED,kd_ok; value_ok
+2012.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+2013.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+2014.TW,EXCLUDED,kd_ok; value_ok
+2015.TW,EXCLUDED,kd_ok; value_ok
+2017.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+2020.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+2022.TW,EXCLUDED,trend_ok; deviation_ok; value_ok
+2023.TW,EXCLUDED,kd_ok; value_ok
+2024.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+2025.TW,EXCLUDED,kd_ok; value_ok
+2027.TW,EXCLUDED,kd_ok
+2028.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+2029.TW,EXCLUDED,kd_ok; value_ok
+2030.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok
+2031.TW,EXCLUDED,kd_ok; value_ok
+2032.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+2033.TW,EXCLUDED,deviation_ok; kd_ok; value_ok
+2034.TW,EXCLUDED,kd_ok; value_ok
+2035.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+2038.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+2049.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok
+2059.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok
+2061.TWO,EXCLUDED,kd_ok; value_ok
+2062.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+2063.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+2064.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+2065.TWO,EXCLUDED,kd_ok; value_ok
+2066.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+2067.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+2069.TW,EXCLUDED,value_ok
+2070.TWO,EXCLUDED,kd_ok; value_ok
+2072.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+2073.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+2101.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+2102.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+2103.TW,EXCLUDED,kd_ok; value_ok
+2104.TW,EXCLUDED,kd_ok; value_ok
+2105.TW,EXCLUDED,kd_ok
+2106.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+2107.TW,EXCLUDED,kd_ok; value_ok
+2108.TW,EXCLUDED,kd_ok; value_ok
+2109.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+2114.TW,EXCLUDED,kd_ok; value_ok
+2115.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+2201.TW,EXCLUDED,trend_ok; kd_ok
+2204.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+2206.TW,EXCLUDED,kd_ok; value_ok
+2207.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+2208.TW,EXCLUDED,trend_ok; deviation_ok; value_ok
+2211.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+2221.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok
+2227.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+2228.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+2230.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+2231.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+2233.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+2235.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+2236.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+2237.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+2239.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+2241.TW,EXCLUDED,kd_ok
+2243.TW,EXCLUDED,deviation_ok; kd_ok; value_ok
+2247.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+2248.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+2250.TW,EXCLUDED,trend_ok; deviation_ok; value_ok
+2254.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+2258.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+2301.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok
+2302.TW,EXCLUDED,kd_ok
+2303.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok
+2305.TW,EXCLUDED,kd_ok
+2308.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok
+2312.TW,EXCLUDED,kd_ok
+2313.TW,EXCLUDED,deviation_ok; kd_ok
+2314.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+2316.TW,EXCLUDED,kd_ok
+2317.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok
+2321.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+2323.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+2324.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok
+2327.TW,EXCLUDED,kd_ok
+2328.TW,EXCLUDED,kd_ok; value_ok
+2329.TW,EXCLUDED,trend_ok; kd_ok
+2330.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok
+2331.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+2332.TW,EXCLUDED,deviation_ok; kd_ok
+2337.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok
+2338.TW,EXCLUDED,deviation_ok; kd_ok
+2340.TW,EXCLUDED,deviation_ok; kd_ok
+2342.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+2344.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok
+2345.TW,EXCLUDED,deviation_ok; kd_ok
+2347.TW,EXCLUDED,kd_ok
+2348.TW,EXCLUDED,trend_ok; deviation_ok; value_ok
+2349.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+2351.TW,EXCLUDED,kd_ok
+2352.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+2353.TW,EXCLUDED,kd_ok
+2354.TW,EXCLUDED,kd_ok
+2355.TW,EXCLUDED,deviation_ok; kd_ok
+2356.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok
+2357.TW,EXCLUDED,kd_ok
+2359.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok
+2360.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok
+2362.TW,EXCLUDED,kd_ok; value_ok
+2363.TW,EXCLUDED,kd_ok
+2364.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+2365.TW,EXCLUDED,trend_ok; deviation_ok; value_ok
+2367.TW,EXCLUDED,kd_ok
+2368.TW,EXCLUDED,deviation_ok; kd_ok
+2369.TW,EXCLUDED,kd_ok; value_ok
+2371.TW,EXCLUDED,trend_ok; kd_ok
+2373.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+2374.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+2375.TW,EXCLUDED,kd_ok
+2376.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok
+2377.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok
+2379.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok
+2380.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+2382.TW,EXCLUDED,trend_ok; deviation_ok
+2383.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok
+2385.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok
+2387.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+2388.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok
+2390.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+2392.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+2393.TW,EXCLUDED,kd_ok
+2395.TW,EXCLUDED,kd_ok
+2397.TW,EXCLUDED,kd_ok; value_ok
+2399.TW,EXCLUDED,kd_ok; value_ok
+2401.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+2402.TW,EXCLUDED,kd_ok
+2404.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok
+2405.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+2406.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+2408.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok
+2409.TW,EXCLUDED,kd_ok
+2412.TW,EXCLUDED,kd_ok
+2413.TW,EXCLUDED,deviation_ok; kd_ok
+2414.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+2415.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+2417.TW,EXCLUDED,trend_ok; deviation_ok; value_ok
+2419.TW,EXCLUDED,value_ok
+2420.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+2421.TW,EXCLUDED,kd_ok
+2423.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+2424.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+2425.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+2426.TW,EXCLUDED,kd_ok
+2427.TW,EXCLUDED,trend_ok; value_ok
+2428.TW,EXCLUDED,kd_ok
+2429.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+2430.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+2431.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+2432.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+2433.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+2434.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+2436.TW,EXCLUDED,kd_ok
+2438.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+2439.TW,EXCLUDED,trend_ok; kd_ok
+2440.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+2441.TW,EXCLUDED,kd_ok
+2442.TW,EXCLUDED,trend_ok; deviation_ok; value_ok
+2444.TW,EXCLUDED,kd_ok; value_ok
+2449.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok
+2450.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+2451.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok
+2453.TW,EXCLUDED,trend_ok; value_ok
+2454.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok
+2455.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok
+2457.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+2458.TW,EXCLUDED,kd_ok
+2459.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+2460.TW,EXCLUDED,kd_ok; value_ok
+2461.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+2462.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+2464.TW,EXCLUDED,kd_ok
+2465.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+2466.TW,EXCLUDED,deviation_ok; kd_ok
+2467.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok
+2468.TW,EXCLUDED,deviation_ok; kd_ok
+2471.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+2472.TW,EXCLUDED,kd_ok
+2474.TW,EXCLUDED,trend_ok; deviation_ok
+2476.TW,EXCLUDED,kd_ok; value_ok
+2477.TW,EXCLUDED,kd_ok; value_ok
+2478.TW,EXCLUDED,deviation_ok; kd_ok
+2480.TW,EXCLUDED,kd_ok
+2481.TW,EXCLUDED,kd_ok
+2482.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+2483.TW,EXCLUDED,kd_ok; value_ok
+2484.TW,EXCLUDED,kd_ok
+2485.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok
+2486.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok
+2488.TW,EXCLUDED,kd_ok; value_ok
+2489.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+2491.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+2492.TW,EXCLUDED,deviation_ok; kd_ok
+2493.TW,EXCLUDED,kd_ok
+2495.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+2496.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+2497.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+2498.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+2501.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+2504.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+2505.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+2506.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+2509.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+2511.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+2514.TW,EXCLUDED,trend_ok; deviation_ok; value_ok
+2515.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+2516.TW,EXCLUDED,kd_ok; value_ok
+2520.TW,EXCLUDED,kd_ok; value_ok
+2524.TW,EXCLUDED,trend_ok; deviation_ok; value_ok
+2527.TW,EXCLUDED,kd_ok; value_ok
+2528.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+2530.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+2534.TW,EXCLUDED,trend_ok; deviation_ok; value_ok
+2535.TW,EXCLUDED,kd_ok; value_ok
+2536.TW,EXCLUDED,trend_ok; deviation_ok; value_ok
+2537.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+2538.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+2539.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+2540.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+2542.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok
+2543.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+2545.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+2546.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+2547.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+2548.TW,EXCLUDED,trend_ok; deviation_ok; value_ok
+2596.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+2597.TW,EXCLUDED,trend_ok; value_ok
+2601.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+2603.TW,EXCLUDED,deviation_ok; kd_ok
+2605.TW,EXCLUDED,kd_ok
+2606.TW,EXCLUDED,kd_ok
+2607.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+2608.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+2609.TW,EXCLUDED,kd_ok
+2610.TW,EXCLUDED,kd_ok
+2611.TW,EXCLUDED,kd_ok; value_ok
+2612.TW,EXCLUDED,kd_ok; value_ok
+2613.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+2614.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+2615.TW,EXCLUDED,deviation_ok; kd_ok
+2616.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+2617.TW,EXCLUDED,kd_ok; value_ok
+2618.TW,EXCLUDED,kd_ok
+2630.TW,EXCLUDED,trend_ok; deviation_ok; value_ok
+2633.TW,EXCLUDED,trend_ok; kd_ok
+2634.TW,EXCLUDED,kd_ok
+2636.TW,EXCLUDED,kd_ok; value_ok
+2637.TW,EXCLUDED,deviation_ok; kd_ok
+2640.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+2641.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+2642.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+2643.TWO,EXCLUDED,trend_ok; kd_ok; value_ok
+2645.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+2646.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+2701.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+2702.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+2704.TW,EXCLUDED,kd_ok; value_ok
+2705.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+2706.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+2707.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+2712.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+2718.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+2719.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+2722.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+2723.TW,EXCLUDED,kd_ok; value_ok
+2724.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+2726.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+2727.TW,EXCLUDED,kd_ok; value_ok
+2729.TWO,EXCLUDED,trend_ok; kd_ok; value_ok
+2731.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+2732.TWO,EXCLUDED,trend_ok; kd_ok; value_ok
+2734.TWO,EXCLUDED,trend_ok; kd_ok; value_ok
+2736.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+2739.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+2740.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+2743.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+2745.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+2748.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+2751.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+2752.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+2753.TW,EXCLUDED,kd_ok; value_ok
+2754.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+2755.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+2756.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+2762.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+2801.TW,EXCLUDED,kd_ok
+2812.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok
+2816.TW,EXCLUDED,kd_ok; value_ok
+2820.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+2832.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+2834.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok
+2836.TW,EXCLUDED,kd_ok; value_ok
+2838.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+2845.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok
+2849.TW,EXCLUDED,kd_ok; value_ok
+2850.TW,EXCLUDED,kd_ok; value_ok
+2851.TW,EXCLUDED,kd_ok
+2852.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+2855.TW,EXCLUDED,kd_ok
+2880.TW,EXCLUDED,kd_ok
+2881.TW,EXCLUDED,kd_ok
+2882.TW,EXCLUDED,kd_ok
+2883.TW,EXCLUDED,kd_ok
+2884.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+2885.TW,EXCLUDED,kd_ok
+2886.TW,EXCLUDED,kd_ok
+2887.TW,EXCLUDED,kd_ok
+2889.TW,EXCLUDED,kd_ok
+2890.TW,EXCLUDED,kd_ok
+2891.TW,EXCLUDED,kd_ok
+2892.TW,EXCLUDED,kd_ok
+2897.TW,EXCLUDED,kd_ok; value_ok
+2901.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+2903.TW,EXCLUDED,kd_ok; value_ok
+2904.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+2905.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+2906.TW,EXCLUDED,kd_ok; value_ok
+2908.TW,EXCLUDED,kd_ok; value_ok
+2910.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+2911.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+2912.TW,EXCLUDED,kd_ok
+2913.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+2915.TW,EXCLUDED,kd_ok; value_ok
+2916.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+2923.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+2924.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+2926.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+2929.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+2937.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+2938.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+2939.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+2941.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+2945.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+2947.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+2948.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+2949.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+3002.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+3003.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+3004.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+3005.TW,EXCLUDED,kd_ok
+3006.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok
+3008.TW,EXCLUDED,kd_ok
+3010.TW,EXCLUDED,kd_ok
+3011.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+3013.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok
+3014.TW,EXCLUDED,kd_ok
+3015.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+3016.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok
+3017.TW,EXCLUDED,kd_ok
+3018.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+3019.TW,EXCLUDED,trend_ok; kd_ok
+3021.TW,EXCLUDED,kd_ok; value_ok
+3022.TW,EXCLUDED,trend_ok; deviation_ok; value_ok
+3023.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok
+3024.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+3025.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+3026.TW,EXCLUDED,deviation_ok; kd_ok
+3027.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+3028.TW,EXCLUDED,kd_ok; value_ok
+3029.TW,EXCLUDED,kd_ok
+3030.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok
+3031.TW,EXCLUDED,deviation_ok; kd_ok; value_ok
+3032.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+3033.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok
+3034.TW,EXCLUDED,deviation_ok; kd_ok
+3035.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok
+3036.TW,EXCLUDED,kd_ok
+3037.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok
+3038.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+3040.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+3041.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+3042.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok
+3043.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+3044.TW,EXCLUDED,deviation_ok; kd_ok
+3045.TW,EXCLUDED,kd_ok
+3046.TW,EXCLUDED,trend_ok; deviation_ok; value_ok
+3047.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+3048.TW,EXCLUDED,kd_ok
+3049.TW,EXCLUDED,value_ok
+3050.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+3051.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+3052.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+3054.TW,EXCLUDED,kd_ok; value_ok
+3055.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok
+3056.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+3057.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+3058.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+3059.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+3060.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+3062.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok
+3064.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+3066.TWO,EXCLUDED,kd_ok; value_ok
+3067.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+3071.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+3073.TWO,EXCLUDED,trend_ok; kd_ok; value_ok
+3078.TWO,EXCLUDED,trend_ok; kd_ok; value_ok
+3081.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok
+3083.TWO,EXCLUDED,trend_ok; kd_ok; value_ok
+3085.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+3086.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+3088.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+3090.TW,EXCLUDED,deviation_ok; kd_ok
+3092.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+3093.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+3094.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok
+3095.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+3105.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok
+3114.TWO,EXCLUDED,deviation_ok; kd_ok
+3115.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+3118.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+3122.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+3128.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+3130.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+3131.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok
+3135.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+3138.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+3141.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+3147.TWO,EXCLUDED,deviation_ok; kd_ok
+3149.TW,EXCLUDED,kd_ok
+3150.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+3152.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+3158.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+3162.TWO,EXCLUDED,kd_ok
+3163.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok
+3164.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+3167.TW,EXCLUDED,deviation_ok; kd_ok
+3168.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+3169.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+3171.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+3176.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+3178.TWO,EXCLUDED,trend_ok; deviation_ok; value_ok
+3188.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+3189.TW,EXCLUDED,kd_ok
+3191.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+3205.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+3206.TWO,EXCLUDED,trend_ok; kd_ok; value_ok
+3207.TWO,EXCLUDED,trend_ok; kd_ok; value_ok
+3209.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+3211.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok
+3213.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+3217.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+3218.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+3219.TWO,EXCLUDED,kd_ok
+3221.TWO,EXCLUDED,kd_ok; value_ok
+3224.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+3226.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+3227.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok
+3228.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+3229.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+3230.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+3231.TW,EXCLUDED,kd_ok
+3232.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+3234.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok
+3236.TWO,EXCLUDED,kd_ok
+3252.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+3257.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+3259.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+3260.TWO,EXCLUDED,trend_ok; deviation_ok
+3264.TWO,EXCLUDED,kd_ok
+3265.TWO,EXCLUDED,deviation_ok; kd_ok
+3266.TW,EXCLUDED,kd_ok; value_ok
+3268.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+3272.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+3276.TWO,EXCLUDED,trend_ok; kd_ok; value_ok
+3284.TWO,EXCLUDED,trend_ok; kd_ok; value_ok
+3285.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+3287.TWO,EXCLUDED,deviation_ok; kd_ok
+3288.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+3289.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+3290.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+3293.TWO,EXCLUDED,kd_ok
+3294.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+3296.TW,EXCLUDED,kd_ok; value_ok
+3297.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+3303.TWO,EXCLUDED,kd_ok; value_ok
+3305.TW,EXCLUDED,deviation_ok; kd_ok
+3306.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+3308.TW,EXCLUDED,kd_ok; value_ok
+3310.TWO,EXCLUDED,trend_ok; kd_ok; value_ok
+3311.TW,EXCLUDED,kd_ok
+3312.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+3313.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+3317.TWO,EXCLUDED,kd_ok; value_ok
+3321.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+3322.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+3323.TWO,EXCLUDED,trend_ok; kd_ok; value_ok
+3324.TWO,EXCLUDED,kd_ok
+3325.TWO,EXCLUDED,trend_ok; deviation_ok; value_ok
+3332.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+3338.TW,EXCLUDED,kd_ok; value_ok
+3339.TWO,EXCLUDED,kd_ok; value_ok
+3346.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+3349.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+3354.TWO,EXCLUDED,deviation_ok; kd_ok
+3356.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+3357.TWO,EXCLUDED,kd_ok
+3360.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+3362.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok
+3363.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok
+3372.TWO,EXCLUDED,trend_ok; kd_ok; value_ok
+3373.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+3374.TWO,EXCLUDED,kd_ok
+3376.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok
+3379.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+3380.TW,EXCLUDED,deviation_ok; kd_ok
+3388.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+3390.TWO,EXCLUDED,trend_ok; deviation_ok; value_ok
+3402.TWO,EXCLUDED,kd_ok; value_ok
+3406.TW,EXCLUDED,deviation_ok; kd_ok
+3413.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok
+3416.TW,EXCLUDED,kd_ok; value_ok
+3419.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+3430.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+3432.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+3434.TWO,EXCLUDED,kd_ok; value_ok
+3437.TW,EXCLUDED,kd_ok; value_ok
+3438.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+3441.TWO,EXCLUDED,deviation_ok; kd_ok
+3443.TW,EXCLUDED,kd_ok
+3444.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+3447.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+3450.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok
+3455.TWO,EXCLUDED,deviation_ok; kd_ok
+3465.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+3466.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+3467.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+3479.TWO,EXCLUDED,kd_ok; value_ok
+3481.TW,EXCLUDED,kd_ok
+3483.TWO,EXCLUDED,deviation_ok; kd_ok
+3484.TWO,EXCLUDED,kd_ok; value_ok
+3485.TWO,EXCLUDED,deviation_ok; kd_ok
+3489.TWO,EXCLUDED,value_ok
+3490.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+3491.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+3492.TWO,EXCLUDED,trend_ok; kd_ok; value_ok
+3494.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+3498.TWO,EXCLUDED,deviation_ok; kd_ok
+3499.TWO,EXCLUDED,trend_ok; kd_ok; value_ok
+3501.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+3504.TW,EXCLUDED,kd_ok
+3508.TWO,EXCLUDED,kd_ok; value_ok
+3511.TWO,EXCLUDED,trend_ok; kd_ok; value_ok
+3512.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+3515.TW,EXCLUDED,trend_ok; kd_ok
+3516.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+3518.TW,EXCLUDED,kd_ok
+3520.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+3521.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+3522.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+3523.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+3526.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+3527.TWO,EXCLUDED,trend_ok; kd_ok; value_ok
+3528.TW,EXCLUDED,kd_ok; value_ok
+3529.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok
+3530.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+3531.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+3532.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok
+3533.TW,EXCLUDED,kd_ok
+3535.TW,EXCLUDED,deviation_ok; kd_ok
+3537.TWO,EXCLUDED,kd_ok; value_ok
+3540.TWO,EXCLUDED,trend_ok; kd_ok; value_ok
+3541.TWO,EXCLUDED,kd_ok; value_ok
+3543.TW,EXCLUDED,kd_ok; value_ok
+3545.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+3546.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+3548.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+3550.TW,EXCLUDED,kd_ok; value_ok
+3551.TWO,EXCLUDED,trend_ok; kd_ok; value_ok
+3552.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+3555.TWO,EXCLUDED,trend_ok; deviation_ok; value_ok
+3556.TWO,EXCLUDED,kd_ok; value_ok
+3557.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+3558.TWO,EXCLUDED,kd_ok; value_ok
+3563.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok
+3564.TWO,EXCLUDED,deviation_ok; kd_ok
+3567.TWO,EXCLUDED,trend_ok; kd_ok; value_ok
+3570.TWO,EXCLUDED,trend_ok; kd_ok; value_ok
+3576.TW,EXCLUDED,kd_ok
+3577.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+3580.TWO,EXCLUDED,deviation_ok; kd_ok
+3581.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+3583.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok
+3587.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+3588.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+3591.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+3592.TW,EXCLUDED,kd_ok
+3593.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+3594.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+3596.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok
+3597.TWO,EXCLUDED,deviation_ok; kd_ok; value_ok
+3605.TW,EXCLUDED,deviation_ok; kd_ok
+3607.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+3609.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+3611.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+3615.TWO,EXCLUDED,kd_ok; value_ok
+3617.TW,EXCLUDED,kd_ok
+3622.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+3623.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+3624.TWO,EXCLUDED,kd_ok
+3625.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+3628.TWO,EXCLUDED,kd_ok; value_ok
+3629.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+3630.TWO,EXCLUDED,deviation_ok; kd_ok; value_ok
+3631.TWO,EXCLUDED,kd_ok; value_ok
+3632.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+3645.TW,EXCLUDED,kd_ok
+3646.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+3652.TW,EXCLUDED,kd_ok; value_ok
+3653.TW,EXCLUDED,deviation_ok; kd_ok
+3661.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok
+3663.TWO,EXCLUDED,deviation_ok; kd_ok
+3664.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+3665.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+3666.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+3669.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+3672.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+3673.TW,EXCLUDED,kd_ok
+3675.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok
+3679.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+3680.TWO,EXCLUDED,kd_ok
+3684.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+3685.TWO,EXCLUDED,kd_ok
+3686.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+3687.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+3689.TWO,EXCLUDED,kd_ok
+3691.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+3693.TWO,EXCLUDED,deviation_ok; kd_ok
+3694.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+3701.TW,EXCLUDED,deviation_ok; kd_ok
+3702.TW,EXCLUDED,kd_ok
+3703.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+3704.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok
+3705.TW,EXCLUDED,kd_ok; value_ok
+3706.TW,EXCLUDED,kd_ok
+3707.TWO,EXCLUDED,kd_ok
+3708.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+3709.TWO,EXCLUDED,trend_ok; kd_ok; value_ok
+3710.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+3711.TW,EXCLUDED,kd_ok
+3712.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+3713.TWO,EXCLUDED,trend_ok; kd_ok; value_ok
+3714.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok
+3715.TW,EXCLUDED,trend_ok; kd_ok
+3716.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+3717.TW,EXCLUDED,deviation_ok; kd_ok
+3718.TWO,INSUFFICIENT,Requires 250 completed bars per evaluated timeframe
+4102.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+4104.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+4105.TWO,EXCLUDED,kd_ok
+4106.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+4107.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+4108.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+4109.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+4111.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+4113.TWO,EXCLUDED,trend_ok; deviation_ok; value_ok
+4114.TWO,EXCLUDED,kd_ok; value_ok
+4116.TWO,EXCLUDED,trend_ok; kd_ok; value_ok
+4119.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+4120.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+4121.TWO,EXCLUDED,trend_ok; kd_ok; value_ok
+4123.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+4126.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+4127.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+4128.TWO,EXCLUDED,trend_ok; kd_ok; value_ok
+4129.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+4131.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+4133.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+4137.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+4138.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+4139.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+4142.TW,EXCLUDED,kd_ok; value_ok
+4147.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+4148.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+4153.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+4154.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+4155.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+4157.TWO,EXCLUDED,trend_ok; kd_ok; value_ok
+4160.TWO,EXCLUDED,trend_ok; kd_ok; value_ok
+4161.TWO,EXCLUDED,trend_ok; deviation_ok; value_ok
+4162.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+4163.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+4164.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+4166.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+4167.TWO,EXCLUDED,kd_ok; value_ok
+4168.TWO,EXCLUDED,trend_ok; kd_ok; value_ok
+4169.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+4171.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+4173.TWO,EXCLUDED,trend_ok; kd_ok; value_ok
+4174.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+4175.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+4178.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+4183.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+4188.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+4190.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+4192.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+4195.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+4198.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+4205.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+4207.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+4303.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+4304.TWO,EXCLUDED,trend_ok; kd_ok; value_ok
+4305.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+4306.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+4401.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+4402.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+4406.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+4413.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+4414.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+4416.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+4417.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+4419.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+4420.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+4426.TW,EXCLUDED,kd_ok; value_ok
+4430.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+4432.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+4433.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+4438.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+4439.TW,EXCLUDED,kd_ok; value_ok
+4440.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+4441.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+4442.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+4502.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+4503.TWO,EXCLUDED,trend_ok; kd_ok; value_ok
+4506.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+4510.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+4513.TWO,EXCLUDED,trend_ok; kd_ok; value_ok
+4523.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+4526.TW,EXCLUDED,kd_ok
+4527.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+4528.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+4529.TWO,EXCLUDED,trend_ok; kd_ok; value_ok
+4530.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+4532.TW,EXCLUDED,trend_ok; value_ok
+4533.TWO,EXCLUDED,trend_ok; kd_ok; value_ok
+4534.TWO,EXCLUDED,kd_ok; value_ok
+4535.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+4536.TW,EXCLUDED,trend_ok; deviation_ok; value_ok
+4538.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+4540.TW,EXCLUDED,kd_ok; value_ok
+4541.TWO,EXCLUDED,trend_ok; deviation_ok; value_ok
+4542.TWO,EXCLUDED,deviation_ok; kd_ok
+4543.TWO,EXCLUDED,trend_ok; kd_ok; value_ok
+4545.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+4549.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+4550.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+4551.TW,EXCLUDED,kd_ok
+4552.TW,EXCLUDED,trend_ok; deviation_ok; value_ok
+4554.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+4555.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+4556.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+4557.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+4558.TWO,EXCLUDED,trend_ok; kd_ok; value_ok
+4560.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+4561.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+4562.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+4563.TWO,EXCLUDED,kd_ok; value_ok
+4564.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+4566.TW,EXCLUDED,deviation_ok; kd_ok
+4568.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+4569.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+4571.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+4572.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+4576.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok
+4577.TWO,EXCLUDED,deviation_ok; kd_ok; value_ok
+4580.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+4581.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+4582.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+4583.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+4584.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+4585.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+4588.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+4590.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+4609.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+4702.TWO,EXCLUDED,trend_ok; kd_ok; value_ok
+4706.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+4707.TWO,EXCLUDED,kd_ok; value_ok
+4711.TWO,EXCLUDED,kd_ok; value_ok
+4714.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+4716.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+4720.TW,EXCLUDED,deviation_ok; kd_ok
+4721.TWO,EXCLUDED,kd_ok; value_ok
+4722.TW,EXCLUDED,trend_ok; kd_ok
+4726.TWO,EXCLUDED,trend_ok; kd_ok; value_ok
+4728.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+4729.TWO,EXCLUDED,trend_ok; kd_ok; value_ok
+4735.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+4736.TW,EXCLUDED,kd_ok; value_ok
+4737.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+4739.TW,EXCLUDED,kd_ok; value_ok
+4741.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+4743.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok
+4744.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+4745.TWO,EXCLUDED,trend_ok; kd_ok; value_ok
+4746.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+4747.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+4749.TWO,EXCLUDED,trend_ok; kd_ok
+4754.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+4755.TW,EXCLUDED,kd_ok; value_ok
+4760.TWO,EXCLUDED,deviation_ok; kd_ok
+4763.TW,EXCLUDED,trend_ok; kd_ok
+4764.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok
+4766.TW,EXCLUDED,kd_ok; value_ok
+4767.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+4768.TWO,EXCLUDED,deviation_ok; kd_ok
+4770.TW,EXCLUDED,deviation_ok; kd_ok
+4771.TW,EXCLUDED,value_ok
+4772.TWO,EXCLUDED,trend_ok; kd_ok
+4804.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+4806.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+4807.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+4903.TWO,EXCLUDED,deviation_ok; kd_ok
+4904.TW,EXCLUDED,kd_ok
+4905.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+4906.TW,EXCLUDED,deviation_ok; kd_ok
+4907.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+4908.TWO,EXCLUDED,kd_ok
+4909.TWO,EXCLUDED,trend_ok; kd_ok; value_ok
+4911.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+4912.TW,EXCLUDED,kd_ok; value_ok
+4915.TW,EXCLUDED,trend_ok; kd_ok
+4916.TW,EXCLUDED,kd_ok
+4919.TW,EXCLUDED,kd_ok
+4923.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+4924.TWO,EXCLUDED,deviation_ok; kd_ok; value_ok
+4927.TW,EXCLUDED,deviation_ok; kd_ok
+4930.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+4931.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok
+4933.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+4934.TW,EXCLUDED,kd_ok; value_ok
+4935.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+4938.TW,EXCLUDED,deviation_ok; kd_ok
+4939.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok
+4942.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+4943.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+4946.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+4949.TW,EXCLUDED,kd_ok; value_ok
+4950.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+4951.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+4952.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+4953.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+4956.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+4958.TW,EXCLUDED,kd_ok
+4960.TW,EXCLUDED,deviation_ok; kd_ok
+4961.TW,EXCLUDED,deviation_ok; kd_ok
+4966.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok
+4967.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok
+4968.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+4971.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok
+4972.TWO,EXCLUDED,trend_ok; deviation_ok; value_ok
+4973.TWO,EXCLUDED,kd_ok
+4974.TWO,EXCLUDED,trend_ok; kd_ok; value_ok
+4976.TW,EXCLUDED,kd_ok
+4977.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+4979.TWO,EXCLUDED,kd_ok
+4989.TW,EXCLUDED,kd_ok
+4991.TWO,EXCLUDED,kd_ok
+4994.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+4995.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+4999.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+5007.TW,EXCLUDED,trend_ok; deviation_ok; value_ok
+5009.TWO,EXCLUDED,kd_ok; value_ok
+5011.TWO,EXCLUDED,deviation_ok; kd_ok; value_ok
+5013.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+5014.TWO,EXCLUDED,trend_ok; kd_ok; value_ok
+5015.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+5016.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+5201.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+5202.TWO,EXCLUDED,kd_ok; value_ok
+5203.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+5205.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+5206.TWO,EXCLUDED,trend_ok; kd_ok; value_ok
+5209.TWO,EXCLUDED,kd_ok; value_ok
+5210.TWO,EXCLUDED,kd_ok; value_ok
+5211.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+5212.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+5213.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+5215.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+5220.TWO,EXCLUDED,kd_ok; value_ok
+5222.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+5223.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+5225.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+5227.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+5228.TWO,EXCLUDED,kd_ok; value_ok
+5230.TWO,EXCLUDED,kd_ok
+5234.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+5236.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+5243.TW,EXCLUDED,kd_ok
+5244.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+5245.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+5251.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+5258.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+5263.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+5269.TW,EXCLUDED,kd_ok
+5272.TWO,EXCLUDED,trend_ok; kd_ok; value_ok
+5274.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok
+5276.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+5278.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+5283.TW,EXCLUDED,kd_ok; value_ok
+5284.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+5285.TW,EXCLUDED,kd_ok; value_ok
+5287.TWO,EXCLUDED,trend_ok; value_ok
+5288.TW,EXCLUDED,kd_ok; value_ok
+5289.TWO,EXCLUDED,trend_ok; deviation_ok
+5291.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+5292.TW,EXCLUDED,kd_ok; value_ok
+5299.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+5301.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+5302.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+5306.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+5309.TWO,EXCLUDED,deviation_ok; kd_ok
+5310.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+5312.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+5314.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+5315.TWO,EXCLUDED,trend_ok; kd_ok; value_ok
+5321.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+5324.TWO,EXCLUDED,kd_ok; value_ok
+5328.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok
+5340.TWO,EXCLUDED,deviation_ok; kd_ok
+5344.TWO,EXCLUDED,trend_ok; kd_ok; value_ok
+5345.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+5347.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok
+5348.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+5351.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok
+5353.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+5355.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+5356.TWO,EXCLUDED,trend_ok; kd_ok; value_ok
+5364.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+5381.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+5386.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+5388.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok
+5392.TWO,EXCLUDED,trend_ok; deviation_ok; value_ok
+5398.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+5403.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+5410.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+5425.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok
+5426.TWO,EXCLUDED,kd_ok; value_ok
+5432.TWO,EXCLUDED,deviation_ok; kd_ok; value_ok
+5434.TW,EXCLUDED,kd_ok
+5438.TWO,EXCLUDED,trend_ok; kd_ok; value_ok
+5439.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok
+5443.TWO,EXCLUDED,kd_ok
+5450.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+5452.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+5455.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+5457.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+5460.TWO,EXCLUDED,kd_ok; value_ok
+5464.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+5465.TWO,EXCLUDED,deviation_ok; kd_ok; value_ok
+5468.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+5469.TW,EXCLUDED,kd_ok
+5471.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+5474.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+5475.TWO,EXCLUDED,deviation_ok; kd_ok
+5478.TWO,EXCLUDED,trend_ok; kd_ok; value_ok
+5481.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+5483.TWO,EXCLUDED,kd_ok
+5484.TW,EXCLUDED,trend_ok; deviation_ok; value_ok
+5487.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+5488.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+5489.TWO,EXCLUDED,trend_ok; kd_ok; value_ok
+5490.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+5493.TWO,EXCLUDED,kd_ok; value_ok
+5498.TWO,EXCLUDED,deviation_ok; kd_ok
+5508.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+5511.TWO,EXCLUDED,kd_ok; value_ok
+5512.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+5514.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+5515.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+5516.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+5519.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+5520.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+5521.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+5522.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+5523.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+5525.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+5529.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+5530.TWO,EXCLUDED,trend_ok; kd_ok; value_ok
+5531.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+5533.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+5534.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+5536.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok
+5538.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+5543.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+5546.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+5547.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+5548.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+5601.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+5603.TWO,EXCLUDED,trend_ok; kd_ok; value_ok
+5604.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+5607.TW,EXCLUDED,kd_ok; value_ok
+5608.TW,EXCLUDED,kd_ok; value_ok
+5609.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+5701.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+5703.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+5704.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+5706.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+5864.TWO,EXCLUDED,kd_ok
+5871.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok
+5876.TW,EXCLUDED,kd_ok
+5878.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+5880.TW,EXCLUDED,kd_ok
+5902.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+5903.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+5904.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+5905.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+5906.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+5907.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6005.TW,EXCLUDED,kd_ok
+6015.TWO,EXCLUDED,kd_ok; value_ok
+6016.TWO,EXCLUDED,kd_ok; value_ok
+6020.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6021.TWO,EXCLUDED,deviation_ok; kd_ok; value_ok
+6023.TWO,EXCLUDED,trend_ok; deviation_ok; value_ok
+6024.TW,EXCLUDED,trend_ok; deviation_ok; value_ok
+6026.TWO,EXCLUDED,value_ok
+6028.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+6101.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6103.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+6104.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6108.TW,EXCLUDED,deviation_ok; kd_ok
+6109.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6111.TWO,EXCLUDED,trend_ok; deviation_ok; value_ok
+6112.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok
+6113.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6114.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+6115.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+6116.TW,EXCLUDED,kd_ok
+6117.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+6118.TWO,EXCLUDED,trend_ok; kd_ok; value_ok
+6120.TW,EXCLUDED,kd_ok; value_ok
+6121.TWO,EXCLUDED,trend_ok; deviation_ok
+6122.TWO,EXCLUDED,kd_ok
+6123.TWO,EXCLUDED,trend_ok; kd_ok; value_ok
+6124.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+6125.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6126.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+6127.TWO,EXCLUDED,deviation_ok; kd_ok
+6128.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6129.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+6130.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6133.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6134.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6136.TW,EXCLUDED,kd_ok; value_ok
+6138.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6139.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok
+6140.TWO,EXCLUDED,trend_ok; deviation_ok; value_ok
+6141.TW,EXCLUDED,deviation_ok; kd_ok; value_ok
+6142.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+6143.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6144.TWO,EXCLUDED,trend_ok; kd_ok; value_ok
+6146.TWO,EXCLUDED,deviation_ok; kd_ok
+6147.TWO,EXCLUDED,kd_ok
+6148.TWO,EXCLUDED,deviation_ok; kd_ok
+6150.TWO,EXCLUDED,deviation_ok; kd_ok; value_ok
+6151.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6152.TW,EXCLUDED,kd_ok; value_ok
+6153.TW,EXCLUDED,deviation_ok; kd_ok
+6154.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+6155.TW,EXCLUDED,deviation_ok; kd_ok
+6156.TWO,EXCLUDED,kd_ok; value_ok
+6158.TWO,EXCLUDED,trend_ok; kd_ok; value_ok
+6160.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6161.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6163.TWO,EXCLUDED,trend_ok; kd_ok
+6164.TW,EXCLUDED,kd_ok; value_ok
+6165.TW,EXCLUDED,trend_ok; deviation_ok; value_ok
+6166.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok
+6167.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+6168.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok
+6169.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+6170.TWO,EXCLUDED,kd_ok; value_ok
+6171.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+6173.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+6174.TWO,EXCLUDED,kd_ok; value_ok
+6175.TWO,EXCLUDED,kd_ok; value_ok
+6176.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+6177.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6179.TWO,EXCLUDED,deviation_ok; kd_ok
+6180.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6182.TWO,EXCLUDED,kd_ok
+6183.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6184.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+6185.TWO,EXCLUDED,trend_ok; kd_ok; value_ok
+6186.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6187.TWO,EXCLUDED,kd_ok
+6188.TWO,EXCLUDED,trend_ok; kd_ok; value_ok
+6189.TW,EXCLUDED,kd_ok; value_ok
+6190.TWO,EXCLUDED,kd_ok; value_ok
+6191.TW,EXCLUDED,trend_ok; kd_ok
+6192.TW,EXCLUDED,kd_ok; value_ok
+6194.TWO,EXCLUDED,kd_ok; value_ok
+6195.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+6196.TW,EXCLUDED,kd_ok
+6197.TW,EXCLUDED,kd_ok
+6198.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+6199.TWO,EXCLUDED,kd_ok
+6201.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+6202.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok
+6203.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6204.TWO,EXCLUDED,deviation_ok; kd_ok; value_ok
+6205.TW,EXCLUDED,kd_ok; value_ok
+6206.TW,EXCLUDED,kd_ok; value_ok
+6207.TWO,EXCLUDED,kd_ok
+6208.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6209.TW,EXCLUDED,deviation_ok; kd_ok
+6210.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+6212.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+6213.TW,EXCLUDED,deviation_ok; kd_ok
+6214.TW,EXCLUDED,kd_ok
+6215.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6216.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6217.TWO,EXCLUDED,deviation_ok; kd_ok
+6218.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok
+6219.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6220.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6221.TWO,EXCLUDED,deviation_ok; kd_ok
+6222.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+6223.TWO,EXCLUDED,kd_ok
+6224.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6225.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+6226.TW,EXCLUDED,kd_ok
+6227.TWO,EXCLUDED,kd_ok; value_ok
+6228.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+6229.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6230.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6231.TWO,EXCLUDED,deviation_ok; kd_ok; value_ok
+6233.TWO,EXCLUDED,kd_ok; value_ok
+6234.TWO,EXCLUDED,deviation_ok; kd_ok
+6235.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6236.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+6237.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6239.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok
+6240.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+6241.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+6242.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+6243.TW,EXCLUDED,kd_ok; value_ok
+6244.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok
+6245.TWO,EXCLUDED,kd_ok; value_ok
+6246.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+6248.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6257.TW,EXCLUDED,kd_ok
+6259.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+6261.TWO,EXCLUDED,trend_ok; kd_ok; value_ok
+6263.TWO,EXCLUDED,kd_ok; value_ok
+6264.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+6265.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6266.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6269.TW,EXCLUDED,deviation_ok; kd_ok
+6270.TWO,EXCLUDED,kd_ok; value_ok
+6271.TW,EXCLUDED,kd_ok
+6272.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+6274.TWO,EXCLUDED,kd_ok
+6275.TWO,EXCLUDED,trend_ok; kd_ok; value_ok
+6276.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+6277.TW,EXCLUDED,kd_ok
+6278.TW,EXCLUDED,deviation_ok; kd_ok
+6279.TWO,EXCLUDED,trend_ok; kd_ok; value_ok
+6281.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+6282.TW,EXCLUDED,trend_ok; kd_ok
+6283.TW,EXCLUDED,trend_ok; value_ok
+6284.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6285.TW,EXCLUDED,kd_ok
+6290.TWO,EXCLUDED,kd_ok
+6291.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok
+6292.TWO,EXCLUDED,kd_ok; value_ok
+6294.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6405.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6409.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok
+6411.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6412.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6414.TW,EXCLUDED,kd_ok
+6415.TW,EXCLUDED,deviation_ok; kd_ok
+6416.TW,EXCLUDED,deviation_ok; kd_ok; value_ok
+6417.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6418.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6419.TWO,EXCLUDED,kd_ok; value_ok
+6423.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6425.TWO,EXCLUDED,kd_ok; value_ok
+6426.TW,EXCLUDED,kd_ok
+6431.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6432.TWO,EXCLUDED,kd_ok; value_ok
+6435.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6438.TW,EXCLUDED,kd_ok
+6441.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6442.TW,EXCLUDED,trend_ok; kd_ok
+6443.TW,EXCLUDED,trend_ok; kd_ok
+6446.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok
+6449.TW,EXCLUDED,deviation_ok; kd_ok
+6451.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok
+6456.TW,EXCLUDED,kd_ok
+6461.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+6462.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6464.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+6465.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+6469.TWO,EXCLUDED,trend_ok; kd_ok; value_ok
+6470.TWO,EXCLUDED,kd_ok; value_ok
+6472.TW,EXCLUDED,trend_ok; kd_ok
+6474.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+6477.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+6482.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+6485.TWO,EXCLUDED,deviation_ok; kd_ok; value_ok
+6486.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6488.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok
+6491.TW,EXCLUDED,kd_ok
+6492.TWO,EXCLUDED,trend_ok; deviation_ok; value_ok
+6494.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6496.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+6498.TWO,EXCLUDED,trend_ok; kd_ok; value_ok
+6499.TWO,EXCLUDED,deviation_ok; kd_ok
+6504.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+6505.TW,EXCLUDED,deviation_ok; kd_ok
+6506.TWO,EXCLUDED,kd_ok; value_ok
+6508.TWO,EXCLUDED,kd_ok; value_ok
+6509.TWO,EXCLUDED,kd_ok; value_ok
+6510.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok
+6512.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+6515.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok
+6516.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6517.TWO,EXCLUDED,deviation_ok; kd_ok
+6523.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+6525.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6526.TW,EXCLUDED,kd_ok
+6527.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+6530.TWO,EXCLUDED,kd_ok; value_ok
+6531.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok
+6532.TWO,EXCLUDED,deviation_ok; kd_ok
+6533.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok
+6534.TW,EXCLUDED,kd_ok; value_ok
+6535.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6538.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok
+6541.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+6542.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+6546.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6547.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok
+6548.TWO,EXCLUDED,deviation_ok; kd_ok
+6550.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+6552.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6556.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+6558.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6560.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+6561.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6568.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6569.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6570.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6573.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6574.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+6576.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6577.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6578.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6579.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6581.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+6582.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6584.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok
+6585.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6588.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6589.TW,EXCLUDED,trend_ok; value_ok
+6590.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+6591.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6592.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+6593.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6596.TWO,EXCLUDED,trend_ok; value_ok
+6597.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+6598.TW,EXCLUDED,kd_ok; value_ok
+6603.TWO,EXCLUDED,kd_ok; value_ok
+6604.TWO,INSUFFICIENT,Requires 250 completed bars per evaluated timeframe
+6605.TW,EXCLUDED,kd_ok; value_ok
+6606.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6609.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6612.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+6613.TWO,EXCLUDED,kd_ok; value_ok
+6614.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+6615.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+6616.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6617.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok
+6620.TWO,EXCLUDED,deviation_ok; kd_ok
+6624.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+6625.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6629.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6637.TWO,EXCLUDED,trend_ok; kd_ok; value_ok
+6640.TWO,EXCLUDED,kd_ok
+6641.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+6642.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6643.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok
+6645.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6649.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+6651.TWO,EXCLUDED,kd_ok; value_ok
+6654.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+6655.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+6657.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6658.TW,EXCLUDED,kd_ok
+6661.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+6662.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+6664.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6666.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6667.TWO,EXCLUDED,kd_ok
+6668.TW,EXCLUDED,deviation_ok; kd_ok
+6669.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok
+6670.TW,EXCLUDED,kd_ok; value_ok
+6671.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+6672.TW,EXCLUDED,deviation_ok; kd_ok
+6674.TW,EXCLUDED,kd_ok; value_ok
+6679.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6680.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+6683.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok
+6684.TWO,EXCLUDED,trend_ok; kd_ok; value_ok
+6689.TW,EXCLUDED,deviation_ok; kd_ok; value_ok
+6690.TWO,EXCLUDED,kd_ok; value_ok
+6691.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok
+6692.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+6693.TWO,EXCLUDED,kd_ok; value_ok
+6695.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6697.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+6698.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6703.TWO,EXCLUDED,trend_ok; deviation_ok; value_ok
+6706.TW,EXCLUDED,deviation_ok; kd_ok
+6708.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+6712.TWO,EXCLUDED,kd_ok; value_ok
+6715.TW,EXCLUDED,deviation_ok; kd_ok
+6716.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok
+6719.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6720.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+6721.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+6722.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6725.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6727.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok
+6728.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+6730.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+6732.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6733.TWO,EXCLUDED,trend_ok; deviation_ok; value_ok
+6735.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6739.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6741.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+6742.TW,EXCLUDED,deviation_ok; kd_ok
+6743.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6751.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+6752.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+6753.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6754.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6756.TW,EXCLUDED,deviation_ok; kd_ok
+6757.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6761.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6762.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+6763.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6767.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+6768.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6770.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok
+6771.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6776.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6781.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok
+6782.TW,EXCLUDED,deviation_ok; kd_ok
+6785.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6788.TWO,EXCLUDED,kd_ok; value_ok
+6789.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok
+6790.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+6791.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6792.TW,EXCLUDED,kd_ok; value_ok
+6794.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6796.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+6799.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6803.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6804.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+6805.TW,EXCLUDED,trend_ok; deviation_ok
+6807.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+6811.TWO,EXCLUDED,deviation_ok; kd_ok
+6821.TWO,EXCLUDED,trend_ok; kd_ok; value_ok
+6823.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6829.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6830.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok
+6831.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok
+6834.TW,EXCLUDED,deviation_ok; kd_ok
+6835.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6838.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+6840.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6841.TWO,EXCLUDED,trend_ok; kd_ok; value_ok
+6843.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+6844.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+6846.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+6854.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+6855.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+6856.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+6859.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+6861.TW,EXCLUDED,kd_ok
+6862.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+6863.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+6865.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+6869.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+6870.TWO,EXCLUDED,kd_ok; value_ok
+6872.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6873.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6874.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6875.TWO,EXCLUDED,trend_ok; deviation_ok; value_ok
+6877.TWO,EXCLUDED,deviation_ok; kd_ok
+6881.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+6884.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+6885.TW,EXCLUDED,deviation_ok; kd_ok; value_ok
+6887.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+6890.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6894.TWO,EXCLUDED,kd_ok; value_ok
+6895.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6899.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+6901.TW,EXCLUDED,deviation_ok; kd_ok; value_ok
+6902.TW,EXCLUDED,trend_ok; deviation_ok; value_ok
+6903.TWO,EXCLUDED,kd_ok
+6904.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+6906.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+6907.TWO,INSUFFICIENT,Requires 250 completed bars per evaluated timeframe
+6908.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+6909.TW,EXCLUDED,deviation_ok; kd_ok
+6910.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6913.TWO,EXCLUDED,kd_ok; value_ok
+6914.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6916.TW,EXCLUDED,kd_ok; value_ok
+6918.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+6919.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok
+6921.TW,INSUFFICIENT,Requires 250 completed bars per evaluated timeframe
+6922.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6923.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6924.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+6925.TWO,EXCLUDED,deviation_ok; kd_ok
+6928.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6929.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+6931.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6933.TW,EXCLUDED,deviation_ok; kd_ok
+6934.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+6936.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6937.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6944.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok
+6945.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6947.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+6949.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+6951.TW,EXCLUDED,trend_ok; deviation_ok; value_ok
+6952.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+6953.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+6955.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+6957.TW,EXCLUDED,deviation_ok; kd_ok
+6958.TW,EXCLUDED,kd_ok; value_ok
+6961.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6962.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6965.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+6967.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+6968.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6969.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+6971.TWO,EXCLUDED,trend_ok; kd_ok; value_ok
+6982.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6983.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+6986.TWO,EXCLUDED,trend_ok; kd_ok; value_ok
+6988.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+6994.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6996.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+6997.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+7402.TWO,EXCLUDED,trend_ok; deviation_ok; value_ok
+7547.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+7556.TWO,EXCLUDED,kd_ok; value_ok
+7584.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+7610.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok
+7631.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+7642.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+7689.TW,INSUFFICIENT,Requires 250 completed bars per evaluated timeframe
+7703.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+7704.TWO,EXCLUDED,kd_ok; value_ok
+7705.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+7708.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+7709.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+7711.TW,INSUFFICIENT,Requires 250 completed bars per evaluated timeframe
+7712.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+7713.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+7714.TWO,EXCLUDED,kd_ok; value_ok
+7715.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+7716.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+7717.TWO,INSUFFICIENT,Requires 250 completed bars per evaluated timeframe
+7718.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+7721.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+7722.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+7723.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+7728.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+7730.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+7732.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+7734.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok
+7736.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+7738.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+7740.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+7743.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+7744.TWO,EXCLUDED,kd_ok; value_ok
+7747.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+7749.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+7750.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok
+7751.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok
+7753.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+7757.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+7760.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+7765.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+7767.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+7768.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+7769.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok
+7770.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+7772.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+7777.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+7780.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+7782.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+7786.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+7788.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+7791.TW,INSUFFICIENT,Requires 250 completed bars per evaluated timeframe
+7792.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok
+7794.TWO,INSUFFICIENT,Requires 250 completed bars per evaluated timeframe
+7795.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+7799.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok
+7803.TW,INSUFFICIENT,Requires 250 completed bars per evaluated timeframe
+7805.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+7806.TWO,INSUFFICIENT,Requires 250 completed bars per evaluated timeframe
+7810.TWO,EXCLUDED,kd_ok; value_ok
+7811.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+7812.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+7814.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+7818.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+7819.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+7820.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+7821.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+7822.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+7823.TW,INSUFFICIENT,Requires 250 completed bars per evaluated timeframe
+7825.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+7827.TW,EXCLUDED,kd_ok; value_ok
+7828.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok
+7835.TW,INSUFFICIENT,Requires 250 completed bars per evaluated timeframe
+7839.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+7842.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+7855.TW,INSUFFICIENT,Requires 250 completed bars per evaluated timeframe
+7856.TWO,INSUFFICIENT,Requires 250 completed bars per evaluated timeframe
+8011.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+8016.TW,EXCLUDED,kd_ok
+8021.TW,EXCLUDED,kd_ok
+8024.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+8027.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok
+8028.TW,EXCLUDED,kd_ok
+8032.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+8033.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok
+8034.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+8038.TWO,EXCLUDED,trend_ok; kd_ok; value_ok
+8039.TW,EXCLUDED,deviation_ok; kd_ok
+8040.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+8042.TWO,EXCLUDED,deviation_ok; kd_ok
+8043.TWO,EXCLUDED,deviation_ok; kd_ok
+8044.TWO,EXCLUDED,trend_ok; kd_ok; value_ok
+8045.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+8046.TW,EXCLUDED,kd_ok
+8047.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+8048.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+8049.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+8050.TWO,EXCLUDED,kd_ok
+8054.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+8059.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+8064.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok
+8066.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+8067.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+8068.TWO,EXCLUDED,trend_ok; kd_ok; value_ok
+8069.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok
+8070.TW,EXCLUDED,kd_ok; value_ok
+8071.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+8072.TW,EXCLUDED,trend_ok; value_ok
+8074.TWO,EXCLUDED,kd_ok; value_ok
+8076.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+8077.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+8080.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+8081.TW,EXCLUDED,kd_ok
+8083.TWO,EXCLUDED,trend_ok; kd_ok; value_ok
+8084.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+8085.TWO,EXCLUDED,trend_ok; kd_ok; value_ok
+8086.TWO,EXCLUDED,kd_ok
+8087.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+8088.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+8089.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+8091.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+8092.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+8093.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+8096.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok
+8097.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+8099.TWO,EXCLUDED,kd_ok; value_ok
+8101.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+8102.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+8103.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+8104.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+8105.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+8107.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+8109.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+8110.TW,EXCLUDED,trend_ok; kd_ok
+8111.TWO,EXCLUDED,kd_ok
+8112.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok
+8114.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+8121.TWO,EXCLUDED,kd_ok; value_ok
+8131.TW,EXCLUDED,kd_ok
+8147.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+8150.TW,EXCLUDED,kd_ok
+8155.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok
+8162.TW,EXCLUDED,kd_ok; value_ok
+8163.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+8171.TWO,EXCLUDED,trend_ok; kd_ok; value_ok
+8176.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+8182.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+8183.TWO,STALE,Latest data precedes expected completed weekday; suspended/holiday/provider delay
+8201.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+8210.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok
+8213.TW,EXCLUDED,kd_ok; value_ok
+8215.TW,EXCLUDED,value_ok
+8222.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+8227.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok
+8234.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+8240.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+8249.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+8255.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+8261.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok
+8271.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok
+8272.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+8277.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+8279.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+8284.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+8289.TWO,EXCLUDED,kd_ok; value_ok
+8291.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+8299.TWO,EXCLUDED,trend_ok; deviation_ok
+8341.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+8342.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+8349.TWO,EXCLUDED,trend_ok; kd_ok; value_ok
+8354.TWO,EXCLUDED,kd_ok; value_ok
+8358.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok
+8367.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+8374.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+8383.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+8390.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+8401.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+8403.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+8404.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+8409.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+8410.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+8411.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+8415.TWO,EXCLUDED,kd_ok; value_ok
+8416.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+8421.TWO,EXCLUDED,kd_ok; value_ok
+8422.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+8423.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+8424.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+8426.TWO,EXCLUDED,trend_ok; kd_ok; value_ok
+8429.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+8431.TWO,EXCLUDED,deviation_ok; kd_ok
+8432.TWO,EXCLUDED,kd_ok; value_ok
+8433.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+8435.TWO,EXCLUDED,trend_ok; kd_ok; value_ok
+8436.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+8437.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+8438.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+8440.TWO,EXCLUDED,trend_ok; kd_ok; value_ok
+8442.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+8443.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+8444.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+8446.TWO,EXCLUDED,trend_ok; kd_ok; value_ok
+8450.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+8454.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok
+8455.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+8462.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+8463.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+8464.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok
+8466.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+8467.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+8472.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+8473.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+8476.TW,EXCLUDED,deviation_ok; kd_ok; value_ok
+8477.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+8478.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+8481.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+8482.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+8487.TW,EXCLUDED,trend_ok; deviation_ok; value_ok
+8488.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+8489.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+8499.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+8905.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+8906.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+8908.TW,INSUFFICIENT,Requires 250 completed bars per evaluated timeframe
+8908.TWO,STALE,Latest data precedes expected completed weekday; suspended/holiday/provider delay
+8916.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+8917.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+8921.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+8923.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+8924.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+8926.TW,EXCLUDED,kd_ok; value_ok
+8927.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+8928.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+8929.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+8930.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+8931.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+8932.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+8933.TWO,EXCLUDED,trend_ok; kd_ok; value_ok
+8935.TWO,EXCLUDED,trend_ok; kd_ok; value_ok
+8936.TWO,EXCLUDED,trend_ok; kd_ok
+8937.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+8938.TWO,EXCLUDED,trend_ok; kd_ok; value_ok
+8940.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+8941.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+8942.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+8996.TW,EXCLUDED,deviation_ok; kd_ok
+9802.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+9902.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+9904.TW,EXCLUDED,trend_ok; kd_ok
+9905.TW,EXCLUDED,kd_ok; value_ok
+9906.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+9907.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+9908.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+9910.TW,EXCLUDED,trend_ok; kd_ok
+9911.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+9912.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+9914.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+9917.TW,EXCLUDED,kd_ok; value_ok
+9918.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+9919.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+9921.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+9924.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+9925.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+9926.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+9927.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+9928.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+9929.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+9930.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+9931.TW,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+9933.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok
+9934.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+9935.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+9937.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+9938.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+9939.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+9940.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+9941.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+9942.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+9943.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+9944.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+9945.TW,EXCLUDED,kd_ok
+9946.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+9949.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+9950.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+9951.TWO,EXCLUDED,trend_ok; deviation_ok; kd_ok; value_ok
+9955.TW,EXCLUDED,trend_ok; kd_ok; value_ok
+9958.TW,EXCLUDED,trend_ok; deviation_ok; kd_ok
+9960.TWO,INSUFFICIENT,"Invalid, missing or split-action bars interrupted indicator warm-up"
+9962.TWO,EXCLUDED,trend_ok; kd_ok; value_ok

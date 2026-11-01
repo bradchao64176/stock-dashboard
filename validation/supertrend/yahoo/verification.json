@@ -1,0 +1,114 @@
+{
+  "verified_at": "2026-10-24T23:36:16.149772+08:00",
+  "source": "Yahoo daily downloads, auto_adjust=False",
+  "reuses_saved_yahoo_downloads": true,
+  "yahoo_no_trade_dates": [
+    "2021-08-17",
+    "2026-10-23"
+  ],
+  "errors": {},
+  "results": [
+    {
+      "ticker": "2330.TW",
+      "timeframe": "Daily",
+      "daily_rows": 1939,
+      "first_date": "2018-10-24 00:00:00",
+      "latest_date": "2026-10-22 00:00:00",
+      "stats": {
+        "total_eligible": 1,
+        "processed": 1,
+        "evaluated": 1,
+        "matched": 0,
+        "excluded": 1,
+        "insufficient": 0,
+        "stale": 0,
+        "errors": 0
+      },
+      "audit": [
+        {
+          "ticker": "2330.TW",
+          "status": "EXCLUDED",
+          "reason": "trend_ok; deviation_ok; kd_ok"
+        }
+      ],
+      "latest": {
+        "Open": 2435.0,
+        "High": 2435.0,
+        "Low": 2385.0,
+        "Close": 2385.0,
+        "Adj Close": 2385.0,
+        "Volume": 22930116,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0,
+        "valid_bar": true,
+        "trading_value": 54688326660.0,
+        "available_at": "2026-10-22 14:00:00",
+        "EMA": 2158.2043699339397,
+        "ATR": 38.79017980102972,
+        "Supertrend": 2518.4821474112214,
+        "supertrend_bullish": false,
+        "K": 9.965272924875883,
+        "D": 18.28529453596756,
+        "kd_cross": false,
+        "deviation_pct": -5.300102982601218,
+        "ready": true,
+        "trend_ok": false,
+        "deviation_ok": false,
+        "value_ok": true,
+        "kd_ok": false,
+        "BUY": false
+      }
+    },
+    {
+      "ticker": "3293.TWO",
+      "timeframe": "Daily",
+      "daily_rows": 1939,
+      "first_date": "2018-10-24 00:00:00",
+      "latest_date": "2026-10-22 00:00:00",
+      "stats": {
+        "total_eligible": 1,
+        "processed": 1,
+        "evaluated": 1,
+        "matched": 0,
+        "excluded": 1,
+        "insufficient": 0,
+        "stale": 0,
+        "errors": 0
+      },
+      "audit": [
+        {
+          "ticker": "3293.TWO",
+          "status": "EXCLUDED",
+          "reason": "kd_ok"
+        }
+      ],
+      "latest": {
+        "Open": 781.0,
+        "High": 793.0,
+        "Low": 777.0,
+        "Close": 787.0,
+        "Adj Close": 787.0,
+        "Volume": 1209308,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0,
+        "valid_bar": true,
+        "trading_value": 951725396.0,
+        "available_at": "2026-10-22 14:00:00",
+        "EMA": 755.9251197220393,
+        "ATR": 20.32211368861394,
+        "Supertrend": 753.1092887841593,
+        "supertrend_bullish": true,
+        "K": 40.30238428573621,
+        "D": 47.309687567328304,
+        "kd_cross": false,
+        "deviation_pct": 4.500105326088177,
+        "ready": true,
+        "trend_ok": true,
+        "deviation_ok": true,
+        "value_ok": true,
+        "kd_ok": false,
+        "BUY": false
+      }
+    }
+  ]
+}

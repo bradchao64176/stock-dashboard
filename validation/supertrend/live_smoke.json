@@ -1,0 +1,11 @@
+{
+  "timestamp": "2026-10-24T22:41:03.055411+08:00",
+  "universe_total": 0,
+  "markets": {},
+  "universe_errors": {
+    "TWSE": "HTTPSConnectionPool(host='openapi.twse.com.tw', port=443): Max retries exceeded with url: /v1/opendata/t187ap03_L (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000023EBC4BFBB0>: Failed to establish a new connection: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions'))",
+    "TPEx": "HTTPSConnectionPool(host='www.tpex.org.tw', port=443): Max retries exceeded with url: /openapi/v1/mopsfin_t187ap03_O (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000023EBC4DC5B0>: Failed to establish a new connection: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions'))"
+  },
+  "download_errors": {},
+  "samples": {}
+}
